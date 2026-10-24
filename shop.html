@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop Personalised Cards | Love Cards Kenya</title>
+  <meta name="description" content="Browse personalised greeting card designs for birthdays, romance, graduation, exams, weddings, Christmas, Eid, sympathy and more. Prices in KES.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Love Cards Kenya">
+  <meta property="og:title" content="Shop Personalised Cards | Love Cards Kenya">
+  <meta property="og:description" content="Browse personalised greeting card designs for every occasion. Prices in KES.">
+  <meta name="theme-color" content="#4a121c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Pinyon+Script&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/pages/shop.js"></script>
+</head>
+<body data-page="shop">
+  <div id="site-header"></div>
+
+  <main id="main" class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">The collection</p>
+      <h1 id="shop-title">Personalised cards for every occasion</h1>
+      <p id="shop-intro">Every design can be personalised with names, your own words, colours and lettering, then previewed before you order.</p>
+    </header>
+
+    <nav class="occasion-chips" aria-label="Quick occasion filters" id="occasion-chips"></nav>
+
+    <form class="filters" id="filters" role="search" aria-label="Filter designs">
+      <div class="field">
+        <label for="f-q">Search</label>
+        <input class="input" id="f-q" name="q" type="search" placeholder="e.g. birthday, KCSE, pole, wedding" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="f-occasion">Occasion</label>
+        <select class="select" id="f-occasion" name="occasion"><option value="">All occasions</option></select>
+      </div>
+      <div class="field">
+        <label for="f-price">Price</label>
+        <select class="select" id="f-price" name="max">
+          <option value="">Any price</option>
+          <option value="150">Up to KES 150</option>
+          <option value="200">Up to KES 200</option>
+          <option value="300">Up to KES 300</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-sort">Sort by</label>
+        <select class="select" id="f-sort" name="sort">
+          <option value="relevance">Best match</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="name">Name (A–Z)</option>
+        </select>
+      </div>
+    </form>
+
+    <div class="result-bar">
+      <p id="result-count" aria-live="polite" class="mt-0">Loading designs…</p>
+      <button type="button" class="link-btn" id="clear-filters" hidden>Clear filters</button>
+    </div>
+
+    <div id="results" class="product-grid">
+      <p class="loading">Loading designs…</p>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

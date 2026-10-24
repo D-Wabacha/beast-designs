@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personalised Greeting Cards in Kenya | Love Cards Kenya by BeasT Designs</title>
+  <meta name="description" content="Personalised greeting cards for birthdays, love, graduation, anniversaries, Christmas, condolences and more. Customise your message online, preview it, and order in KES with M-PESA.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Love Cards Kenya">
+  <meta property="og:title" content="Love Cards Kenya by BeasT Designs">
+  <meta property="og:description" content="Thoughtfully designed cards for the people, moments and messages that matter. Make it yours, then let us help you send it.">
+  <meta name="theme-color" content="#4a121c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Pinyon+Script&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"BeasT Designs","alternateName":"Love Cards Kenya","telephone":"+254705459618","areaServed":"KE"}
+  </script>
+  <script type="module" src="js/pages/home.js"></script>
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Personalised cards · Made to order in Kenya</p>
+          <h1 id="hero-title">A little more personal. <em>A lot more meaningful.</em></h1>
+          <p class="hero-lede">Thoughtfully designed cards for the people, moments and messages that matter. Make it yours, then let us help you send it.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="customize.html">Create your card</a>
+            <a class="btn btn-secondary" href="shop.html">Explore designs</a>
+          </div>
+          <p class="hero-note">Digital cards from <span data-hero-price>KES 150</span> · Pay with M-PESA · Every payment checked by hand</p>
+        </div>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="hero-card"><canvas data-thumb="birthday-balloons" data-face="main"></canvas></div>
+          <div class="hero-card"><canvas data-thumb="roses-and-gold" data-face="main"></canvas></div>
+          <div class="hero-card"><canvas data-thumb="graduation-laurel" data-face="main"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="section" aria-labelledby="featured-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured designs</p>
+            <h2 id="featured-title">Start with something beautiful</h2>
+          </div>
+          <p>Every design can be personalised with names, your own message, colours and lettering. <a href="shop.html">See all designs</a></p>
+        </div>
+        <div class="product-grid featured-grid" id="featured" aria-live="polite">
+          <p class="loading">Loading designs…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="occasions" aria-labelledby="occasions-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Browse by occasion</p>
+            <h2 id="occasions-title">A card for whatever you're marking</h2>
+          </div>
+          <p>From birthdays and graduations to apologies and condolences. If your occasion isn't listed, our open designs work for almost anything.</p>
+        </div>
+        <div class="occasion-groups" id="occasion-groups"></div>
+        <form class="occasion-search" action="shop.html" role="search">
+          <p><strong>Looking for something specific?</strong> <span class="muted">Try "KCSE", "harusi", "pole", "farewell" or "baptism".</span></p>
+          <div class="row">
+            <label class="visually-hidden" for="home-q">Search designs</label>
+            <input class="input" id="home-q" name="q" type="search" placeholder="Search by occasion or keyword">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2 id="how-title">From idea to inbox in five steps</h2>
+          </div>
+          <p><a href="help.html#how">Full ordering guide</a></p>
+        </div>
+        <ol class="steps">
+          <li><h3>Choose a design</h3><p>Browse by occasion or search for exactly what you need.</p></li>
+          <li><h3>Personalise it</h3><p>Add names and your own words, then pick colours and lettering.</p></li>
+          <li><h3>Preview your card</h3><p>See every change live, exactly as it will be produced.</p></li>
+          <li><h3>Place your order</h3><p>Share your contact details and get an order reference.</p></li>
+          <li><h3>Pay &amp; receive</h3><p>Pay by M-PESA. Once we've confirmed your payment, we send your card.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section pt-0" aria-labelledby="trust-title">
+      <div class="wrap split">
+        <div class="panel">
+          <p class="eyebrow">Paying for your card</p>
+          <h2 id="trust-title">Simple M-PESA payment, honestly confirmed</h2>
+          <p>We accept payment through <strong data-config="payment.methodName">Pochi La Biashara</strong> on <strong class="pay-number" data-config="payment.number">0705459618</strong>.</p>
+          <p class="muted">After you place your order you'll see the exact amount and your order reference. We match every payment by hand against our M-PESA statement before your card is released, and we'll never ask for your PIN.</p>
+          <a href="help.html#payment">How to pay, step by step</a>
+        </div>
+        <div class="panel">
+          <p class="eyebrow">Talk to a person</p>
+          <h2>Need help or something custom?</h2>
+          <p>Ask about a design, request a special occasion, or check on your order. We're happy to help on WhatsApp or by phone.</p>
+          <div class="hero-actions">
+            <a class="btn btn-wa" data-link="whatsapp" href="https://wa.me/254705459618">WhatsApp us</a>
+            <a class="btn btn-secondary" data-link="tel" href="tel:+254705459618">Call <span data-config="phone.display">+254 705 459 618</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pt-0" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <p class="eyebrow">Questions</p>
+        <h2 id="faq-title">Good to know</h2>
+        <div class="faq">
+          <details><summary>What exactly will I receive?</summary><div><p>A <strong>digital card</strong> is a phone-ready PNG image (1200 × 1800 px). A <strong>printable file</strong> is a higher-resolution PNG (2400 × 3600 px) for printing at home or at a print shop. We don't offer printed or delivered physical cards yet.</p></div></details>
+          <details><summary>When do I get my card?</summary><div><p>After we've confirmed your payment, we finish your card and send it on WhatsApp. You can also download it from your order page once it's marked ready.</p></div></details>
+          <details><summary>Can I change my message after ordering?</summary><div><p>Yes, as long as your card hasn't been marked ready. Message us on WhatsApp with your order reference.</p></div></details>
+          <details><summary>My occasion isn't listed. Can you help?</summary><div><p>Yes. Try the "Just because" or "Classic invitation" designs, which work for almost anything, or message us with what you need.</p></div></details>
+        </div>
+        <p class="mt"><a href="help.html#faq">More questions and answers</a></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "groups": [
+    { "id": "love", "name": "Love & together" },
+    { "id": "milestones", "name": "Milestones & wins" },
+    { "id": "seasons", "name": "Seasons & faith" },
+    { "id": "care", "name": "Care & comfort" },
+    { "id": "everyday", "name": "Everyday & work" }
+  ],
+  "occasions": [
+    { "id": "romantic", "name": "Romantic love", "group": "love", "keywords": ["love", "partner", "girlfriend", "boyfriend", "wife", "husband", "babe", "nakupenda", "romance"] },
+    { "id": "gm-gn", "name": "Good morning & good night", "group": "love", "keywords": ["good morning", "good night", "gm", "gn", "habari ya asubuhi", "usiku mwema", "daily"] },
+    { "id": "anniversary-wedding", "name": "Anniversaries & weddings", "group": "love", "keywords": ["anniversary", "wedding", "marriage", "harusi", "ruracio", "engagement", "couple"] },
+    { "id": "valentines", "name": "Valentine's Day", "group": "love", "keywords": ["valentine", "valentines", "14 february", "february"] },
+    { "id": "apology", "name": "Apologies & reconciliation", "group": "love", "keywords": ["sorry", "apology", "forgive", "samahani", "make up", "reconcile"] },
+    { "id": "friendship", "name": "Friendship", "group": "love", "keywords": ["friend", "bestie", "bff", "rafiki", "sister", "brother"] },
+    { "id": "birthday", "name": "Birthdays", "group": "milestones", "keywords": ["birthday", "bday", "born day", "heri ya siku ya kuzaliwa", "turning", "party"] },
+    { "id": "graduation", "name": "Graduation", "group": "milestones", "keywords": ["graduation", "graduate", "degree", "diploma", "university", "college", "convocation"] },
+    { "id": "exam-success", "name": "Exam success & academics", "group": "milestones", "keywords": ["exams", "kcse", "kcpe", "kpsea", "kjsea", "results", "good luck", "school", "academic"] },
+    { "id": "new-job", "name": "New jobs & promotions", "group": "milestones", "keywords": ["new job", "promotion", "career", "hired", "work", "interview"] },
+    { "id": "congratulations", "name": "Congratulations", "group": "milestones", "keywords": ["congratulations", "congrats", "hongera", "well done", "achievement"] },
+    { "id": "new-baby", "name": "Baby showers & new babies", "group": "milestones", "keywords": ["baby", "newborn", "baby shower", "mtoto", "arrival", "birth"] },
+    { "id": "retirement", "name": "Retirement", "group": "milestones", "keywords": ["retirement", "retire", "farewell", "send-off", "pension"] },
+    { "id": "christmas", "name": "Christmas", "group": "seasons", "keywords": ["christmas", "xmas", "krismasi", "holiday", "december", "festive"] },
+    { "id": "new-year", "name": "New Year", "group": "seasons", "keywords": ["new year", "mwaka mpya", "january", "resolutions"] },
+    { "id": "easter", "name": "Easter", "group": "seasons", "keywords": ["easter", "pasaka", "resurrection", "good friday"] },
+    { "id": "eid", "name": "Eid", "group": "seasons", "keywords": ["eid", "eid mubarak", "ramadan", "idd", "eid al-fitr", "eid al-adha"] },
+    { "id": "religious", "name": "Religious celebrations", "group": "seasons", "keywords": ["blessings", "baptism", "dedication", "confirmation", "church", "faith", "prayer", "ordination"] },
+    { "id": "mothers-day", "name": "Mother's Day", "group": "seasons", "keywords": ["mother", "mum", "mom", "mama", "mothers day"] },
+    { "id": "fathers-day", "name": "Father's Day", "group": "seasons", "keywords": ["father", "dad", "baba", "fathers day"] },
+    { "id": "get-well", "name": "Get well soon", "group": "care", "keywords": ["get well", "recovery", "hospital", "sick", "pona haraka", "healing"] },
+    { "id": "sympathy", "name": "Sympathy & condolences", "group": "care", "keywords": ["sympathy", "condolences", "pole", "loss", "funeral", "memorial", "rip", "rest in peace"] },
+    { "id": "thank-you", "name": "Thank-you cards", "group": "everyday", "keywords": ["thank you", "thanks", "asante", "appreciation", "grateful", "teacher"] },
+    { "id": "business", "name": "Business appreciation", "group": "everyday", "keywords": ["client", "customer", "business", "corporate", "staff", "team", "partner", "company"] },
+    { "id": "invitations", "name": "Invitations & announcements", "group": "everyday", "keywords": ["invitation", "invite", "announcement", "save the date", "event", "party", "launch"] },
+    { "id": "just-because", "name": "Just because", "group": "everyday", "keywords": ["thinking of you", "miss you", "just because", "hello", "encouragement"] },
+    { "id": "custom", "name": "Custom & other occasions", "group": "everyday", "keywords": ["custom", "other", "any", "special", "personal"] }
+  ]
+}

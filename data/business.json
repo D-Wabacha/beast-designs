@@ -1,0 +1,109 @@
+{
+  "businessName": "BeasT Designs",
+  "storefrontName": "Love Cards Kenya",
+  "tagline": "Personalised greeting cards for the people and moments that matter",
+  "siteUrl": null,
+  "phone": {
+    "international": "+254705459618",
+    "display": "+254 705 459 618",
+    "local": "0705459618"
+  },
+  "whatsapp": {
+    "number": "254705459618"
+  },
+  "email": null,
+  "businessHours": null,
+  "currency": {
+    "code": "KES",
+    "locale": "en-KE"
+  },
+  "payment": {
+    "method": "pochi",
+    "methodName": "Pochi La Biashara",
+    "number": "0705459618",
+    "accountName": null,
+    "verification": "manual",
+    "routes": [
+      {
+        "id": "app",
+        "label": "M-PESA app",
+        "steps": [
+          "Open the M-PESA app and tap Pay.",
+          "Choose Pochi La Biashara.",
+          "Enter the number {number}.",
+          "Enter the amount: {amount}.",
+          "Confirm with your M-PESA PIN."
+        ]
+      },
+      {
+        "id": "stk",
+        "label": "SIM toolkit",
+        "steps": [
+          "Open M-PESA on your SIM menu and select Lipa na M-PESA.",
+          "Select Pochi La Biashara.",
+          "Enter the number {number}.",
+          "Enter the amount: {amount}.",
+          "Enter your M-PESA PIN and confirm."
+        ]
+      },
+      {
+        "id": "ussd",
+        "label": "Dial *334#",
+        "steps": [
+          "Dial *334# and select Send Money.",
+          "Select Send to Pochi La Biashara.",
+          "Enter the number {number}.",
+          "Enter the amount: {amount}.",
+          "Enter your M-PESA PIN and confirm."
+        ]
+      }
+    ],
+    "notes": [
+      "Pochi La Biashara payments have no account-number field, so share your order reference with us on WhatsApp or enter your M-PESA confirmation code on your order page.",
+      "Standard M-PESA transaction charges set by Safaricom apply to the sender.",
+      "We check every payment by hand against our M-PESA statement. Your order stays \"payment being verified\" until we have confirmed it."
+    ]
+  },
+  "formats": [
+    {
+      "id": "digital",
+      "name": "Digital card",
+      "summary": "Phone-ready image for WhatsApp, Instagram or email.",
+      "description": "PNG image, 1200 × 1800 px. Sent to you on WhatsApp, or downloadable from your order page once payment is confirmed.",
+      "priceAdjustment": 0,
+      "enabled": true,
+      "export": { "width": 1200, "height": 1800 }
+    },
+    {
+      "id": "printable",
+      "name": "Printable file",
+      "summary": "Extra-sharp file for printing at home or at a print shop.",
+      "description": "PNG image, 2400 × 3600 px. Prints sharply up to 8 × 12 in (20 × 30 cm) at 300 dpi.",
+      "priceAdjustment": 100,
+      "enabled": true,
+      "export": { "width": 2400, "height": 3600 }
+    },
+    {
+      "id": "printed",
+      "name": "Printed card",
+      "summary": "Physical card printed and delivered.",
+      "description": "Not offered yet. Enable this only once printing and delivery are actually available.",
+      "priceAdjustment": 0,
+      "enabled": false,
+      "export": null
+    }
+  ],
+  "fulfilment": {
+    "defaultFormat": "digital",
+    "physicalDelivery": false,
+    "channels": [
+      { "id": "whatsapp", "label": "Send it to me on WhatsApp" },
+      { "id": "download", "label": "I'll download it from my order page" }
+    ],
+    "turnaround": null
+  },
+  "orders": {
+    "referencePrefix": "LCK",
+    "maxNotesLength": 500
+  }
+}
