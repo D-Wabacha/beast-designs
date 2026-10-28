@@ -21,13 +21,38 @@ export const ICONS = {
   download: `<svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg>`,
 };
 
-const BRAND_MARK = `<svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-  <rect x="9" y="5" width="20" height="28" rx="1.5" transform="rotate(-8 19 19)" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".45"/>
-  <rect x="12" y="7" width="20" height="28" rx="1.5" fill="var(--paper)" stroke="currentColor" stroke-width="1.4"/>
-  <path d="M15 14h14M15 18h10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity=".5"/>
-  <circle cx="22" cy="27" r="4.2" fill="var(--wine)"/>
-  <path d="M20.3 27.2c0-1 .8-1.6 1.7-.9.9-.7 1.7-.1 1.7.9 0 1-1.7 2-1.7 2s-1.7-1-1.7-2Z" fill="var(--paper)"/>
+// Gold crown from the BeasT Designs logo. `id` keeps gradient/mask ids unique when it appears twice on a page.
+function crownSvg(id) {
+  return `<svg class="brand-crown" viewBox="0 0 120 72" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold-${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dc8f"/><stop offset=".4" stop-color="#d9b45c"/><stop offset=".65" stop-color="#a97c32"/><stop offset="1" stop-color="#e2c271"/></linearGradient>
+    <mask id="cut-${id}" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="72">
+      <rect width="120" height="72" fill="#fff"/>
+      <circle cx="42" cy="47" r="1.8"/><circle cx="51" cy="45.6" r="1.8"/><circle cx="60" cy="45.2" r="2.2"/><circle cx="69" cy="45.6" r="1.8"/><circle cx="78" cy="47" r="1.8"/>
+      <path d="M60 22c3 4 3 8 0 12-3-4-3-8 0-12Z"/>
+    </mask>
+  </defs>
+  <g fill="url(#gold-${id})">
+    <path mask="url(#cut-${id})" d="M25 55 11 22l19 18 5-12 12 11 13-25 13 25 12-11 5 12 19-18-14 33Q60 48 25 55Z"/>
+    <path d="M24 58Q60 51 96 58v5Q60 56 24 63Z"/>
+    <path d="M26 67Q60 61 94 67v1.6Q60 62.6 26 68.6Z"/>
+    <circle cx="11" cy="19.5" r="3.6"/><circle cx="35" cy="25.2" r="3"/><circle cx="85" cy="25.2" r="3"/><circle cx="109" cy="19.5" r="3.6"/>
+    <path d="M60 1c4.5 4.6 4.8 9.3.9 13.6h-1.8C55.2 10.3 55.5 5.6 60 1Z"/>
+    <path d="M58.6 13.2c-2.2-2.7-6.4-2.4-7.3.5-.7 2.3 1.3 4 3.3 3.3-1.2-.4-1.5-1.6-.8-2.3.9-.9 2.6-.6 3.7.8Z"/>
+    <path d="M61.4 13.2c2.2-2.7 6.4-2.4 7.3.5.7 2.3-1.3 4-3.3 3.3 1.2-.4 1.5-1.6.8-2.3-.9-.9-2.6-.6-3.7.8Z"/>
+    <rect x="56" y="14.4" width="8" height="1.8" rx=".9"/>
+  </g>
 </svg>`;
+}
+
+// Stacked logo: crown, "BeasT", "DESIGNS", then the storefront name.
+function brandLogo(business, id) {
+  const [first, ...rest] = business.businessName.split(" ");
+  return `${crownSvg(id)}
+    <span class="brand-name">${esc(first)}</span>
+    <span class="brand-designs">${esc(rest.join(" "))}</span>
+    <span class="brand-sub">${esc(business.storefrontName)}</span>`;
+}
 
 const NAV = [
   { href: "shop.html", label: "Shop cards", page: "shop" },
@@ -44,8 +69,7 @@ function headerHtml(business, page) {
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="${esc(business.storefrontName)} by ${esc(business.businessName)}, home">
-        ${BRAND_MARK}
-        <span class="brand-text"><span class="brand-name">${esc(business.businessName)}</span><span class="brand-sub">${esc(business.storefrontName)}</span></span>
+        ${brandLogo(business, "hd")}
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">${ICONS.menu}<span>Menu</span></button>
       <nav id="site-nav" class="site-nav" aria-label="Main">
@@ -67,8 +91,7 @@ function footerHtml(data) {
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div class="footer-brand">
-        <p class="footer-wordmark">${esc(business.businessName)}</p>
-        <p class="footer-store">${esc(business.storefrontName)}</p>
+        <p class="brand footer-logo" aria-label="${esc(business.storefrontName)} by ${esc(business.businessName)}">${brandLogo(business, "ft")}</p>
         <p class="muted">Personalised greeting cards for birthdays, love, milestones, faith, comfort and everything in between, made to order in Kenya.</p>
       </div>
       <div>

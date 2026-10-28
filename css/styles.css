@@ -21,8 +21,12 @@
   --danger-soft: #f7e1df;
   --wa: #0d7a43;
   --wa-deep: #0a6236;
+  --logo-black: #050505;
+  --logo-gold: #c9a96e;
+  --gold: linear-gradient(180deg, #f6dc8f 0%, #d9b45c 38%, #a97c32 62%, #e2c271 100%);
 
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-logo: "Playfair Display", "Didot", "Bodoni 72", Georgia, serif;
   --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --radius-sm: 4px;
@@ -31,12 +35,12 @@
   --shadow-card: 0 1px 2px rgba(42, 37, 36, 0.06), 0 8px 24px -12px rgba(74, 18, 28, 0.25);
   --shadow-lift: 0 2px 4px rgba(42, 37, 36, 0.06), 0 18px 40px -18px rgba(74, 18, 28, 0.35);
   --gutter: 16px;
-  --header-h: 64px;
+  --header-h: 84px;
   --float-lift: 0px;
 }
 
 @media (min-width: 720px) {
-  :root { --gutter: 28px; --header-h: 72px; }
+  :root { --gutter: 28px; --header-h: 88px; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -141,34 +145,38 @@ a:hover { color: var(--wine-deep); }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 40;
-  background: rgba(250, 245, 238, 0.94);
-  backdrop-filter: saturate(1.2) blur(8px);
-  border-bottom: 1px solid var(--line);
+  background: var(--logo-black);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.35);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: var(--header-h); }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--wine-deep); }
-.brand-mark { width: 38px; height: 38px; color: var(--wine-deep); }
-.brand-text { display: flex; flex-direction: column; line-height: 1.05; }
-.brand-name { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; letter-spacing: -0.01em; }
-.brand-sub { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--brass); margin-top: 3px; }
+
+/* Stacked gold logo: crown, BeasT, DESIGNS, storefront name */
+.brand { display: inline-flex; flex-direction: column; align-items: center; text-decoration: none; padding-block: 6px; line-height: 1; }
+.brand-crown { width: 38px; height: 23px; margin-bottom: 2px; }
+.brand-name, .brand-designs { background: var(--gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand-name { font-family: var(--font-logo); font-weight: 500; font-size: 1.6rem; line-height: 0.95; letter-spacing: -0.01em; }
+.brand-designs { font-family: "Cormorant Garamond", var(--font-logo); font-weight: 600; font-size: 0.64rem; letter-spacing: 0.44em; margin-right: -0.44em; margin-top: 4px; text-transform: uppercase; }
+.brand-sub { display: flex; align-items: center; gap: 6px; font-size: 0.46rem; font-weight: 700; letter-spacing: 0.24em; margin-right: -0.24em; text-transform: uppercase; color: var(--logo-gold); margin-top: 4px; }
+.brand-sub::before, .brand-sub::after { content: ""; width: 12px; height: 1px; background: currentColor; opacity: 0.7; }
 
 .nav-toggle {
   display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px;
-  background: transparent; border: 1px solid var(--line); border-radius: var(--radius);
-  font: 600 0.9rem var(--font-body); color: var(--wine-deep); cursor: pointer;
+  background: transparent; border: 1px solid rgba(201, 169, 110, 0.45); border-radius: var(--radius);
+  font: 600 0.9rem var(--font-body); color: var(--ivory); cursor: pointer;
 }
 .site-nav {
   display: none; position: absolute; left: 0; right: 0; top: 100%;
-  background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: var(--shadow-card);
+  background: var(--logo-black); border-bottom: 1px solid rgba(201, 169, 110, 0.35); box-shadow: var(--shadow-card);
   padding: 8px var(--gutter) 20px;
 }
 .site-nav.is-open { display: block; }
 .site-nav ul { list-style: none; margin: 0 0 12px; padding: 0; }
 .site-nav li a {
-  display: block; padding: 12px 4px; border-bottom: 1px solid var(--line);
-  text-decoration: none; color: var(--charcoal); font-weight: 600;
+  display: block; padding: 12px 4px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-decoration: none; color: var(--ivory); font-weight: 600;
 }
-.site-nav a[aria-current="page"] { color: var(--wine); }
+.site-nav li a:hover { color: #fff; }
+.site-nav a[aria-current="page"] { color: var(--logo-gold); }
 .site-nav .btn-wa { width: 100%; }
 
 @media (min-width: 960px) {
@@ -176,7 +184,7 @@ a:hover { color: var(--wine-deep); }
   .site-nav { display: flex !important; position: static; align-items: center; gap: 24px; padding: 0; background: none; border: 0; box-shadow: none; }
   .site-nav ul { display: flex; gap: 22px; margin: 0; }
   .site-nav li a { padding: 6px 0; border: 0; font-size: 0.92rem; position: relative; }
-  .site-nav li a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--wine); transform: scaleX(0); transition: transform 0.2s; }
+  .site-nav li a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--logo-gold); transform: scaleX(0); transition: transform 0.2s; }
   .site-nav li a:hover::after, .site-nav li a[aria-current="page"]::after { transform: scaleX(1); }
   .site-nav .btn-wa { width: auto; }
 }
@@ -357,8 +365,11 @@ main { display: block; }
 .site-footer .muted { color: #d6c3bf; }
 .footer-grid { display: grid; gap: 32px; }
 @media (min-width: 720px) { .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1.2fr; } }
-.footer-wordmark { font-family: var(--font-display); font-size: 1.6rem; color: #fff; margin: 0; }
-.footer-store { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--brass-soft); margin: 2px 0 12px; }
+.footer-logo { margin: 0 0 14px; padding: 0; }
+.footer-logo .brand-crown { width: 52px; height: 31px; }
+.footer-logo .brand-name { font-size: 2.2rem; }
+.footer-logo .brand-designs { font-size: 0.8rem; }
+.footer-logo .brand-sub { font-size: 0.56rem; }
 .footer-h { font-family: var(--font-body); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--brass-soft); }
 .footer-list { list-style: none; margin: 0; padding: 0; font-size: 0.92rem; }
 .footer-list li { margin-bottom: 8px; }
