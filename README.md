@@ -29,10 +29,12 @@ The pages must be served by `server.py` (or another server). They won't work whe
 Everything lives in `data/` as JSON. The browser and the server read the same files, and the server reloads them automatically when they change.
 
 - **`data/business.json`**: business name, phone/WhatsApp numbers, Pochi number, payment steps and notes, formats and their price differences, delivery options. `siteUrl` should be set to the public URL once deployed (used in the sitemap).
-- **`data/templates.json`**: card designs. Each has a stable `id`, `price` (`type`: `fixed`, `from` or `bundle`), `status` (`published` to show it), `featured`, the `faces` (artwork motif + allowed colour palettes), editable `fields` (label, max length, required) and `suggestions`. Set `status` to anything else to hide a design.
+- **`data/templates.json`**: card designs. Each has a stable `id`, `price` (`type`: `fixed`, `from` or `bundle`), `status` (`published` to show it), `featured` (shown on the homepage, in catalogue order), `new` (adds a "New" badge and lists it in the homepage's new-collection section), the `faces` (artwork motif + allowed colour palettes), editable `fields` (label, max length, required) and `suggestions`. Set `status` to anything else to hide a design.
 - **`data/occasions.json`**: occasion categories, groups and search synonyms (e.g. "pole", "harusi", "KCSE").
 
 Card artwork is drawn in code (`js/card/motifs.js`), so every design is original and renders identically on screen and in the high-resolution export. New designs can reuse any existing motif with different palettes and words.
+
+Designs can also use a picture as the background instead of a drawn motif. These faces have an `art` object in place of `motif`: `src` (a 1000 × 1500 JPEG in `assets/templates/`), `zones` (the boxes where the text goes, on a 100 × 150 grid; a zone with `roles` takes only those fields, and the rest go to the zone without `roles`; `ink`/`accent` fix a zone's text colour, `panel` puts a soft backing behind it) and an optional `shadow` for text on busy, dark artwork. To add or change one, put the original image in a folder, add it to `ART` in `tools/prepare_art.py` (crop, plus any sample text to erase), and run `python3 tools/prepare_art.py <folder>` (needs Pillow). This crops it to 2:3 and saves it.
 
 ## How ordering works
 
@@ -83,6 +85,8 @@ js/card/               paint.js (drawing helpers), motifs.js (artwork), render.j
 js/pages/              One script per page
 js/*.js                data, validation, WhatsApp links, storage, API client, shared UI
 *.html                 Pages: index, shop, customize, checkout, order, help, privacy, terms, admin, 404
+assets/templates/      Background pictures for image-based designs
+tools/                 prepare_art.py (turns raw artwork into 2:3 card backgrounds)
 tests/                 test_server.py (API), e2e.py (browser)
 legacy/                The original React prototype, kept for reference (not served)
 ```

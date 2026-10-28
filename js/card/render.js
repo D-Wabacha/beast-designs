@@ -156,6 +156,110 @@ function layout(ctx, blocks, box, scale) {
   return { laid, total, fits: fits && total <= box.h };
 }
 
+// Image-backed designs: a 2:3 artwork file drawn edge to edge, with text placed in the zones
+// the template marks out. Images load once and are shared by every canvas that shows them.
+const artCache = new Map();
+
+function artImage(src) {
+  let entry = artCache.get(src);
+  if (!entry) {
+    const img = new Image();
+    img.decoding = "async";
+    entry = { img, ready: false };
+    entry.promise = new Promise((resolve, reject) => {
+      img.onload = () => { entry.ready = true; resolve(img); };
+      img.onerror = () => { artCache.delete(src); reject(new Error("Could not load the card artwork.")); };
+    });
+    img.src = new URL(`../../${src}`, import.meta.url).href;
+    artCache.set(src, entry);
+  }
+  return entry;
+}
+
+export function loadTemplateArt(template) {
+  return Promise.all(template.faces.filter(f => f.art).map(f => artImage(f.art.src).promise));
+}
+
+/** Lays out blocks inside one box, shrinking (then trimming) until they fit, and draws them. */
+function drawText(ctx, blocks, box, align, userScale) {
+  let scale = userScale, result = layout(ctx, blocks, box, scale);
+  while (!result.fits && scale > 0.5) {
+    scale -= 0.03;
+    result = layout(ctx, blocks, box, scale);
+  }
+  const overflow = !result.fits;
+  if (overflow) {
+    // Last resort: trim the longest block so nothing spills off the card.
+    const msg = result.laid.find(b => b.role === "message") || result.laid[result.laid.length - 1];
+    while (msg && result.total > box.h && msg.lines.length > 1) {
+      msg.lines.pop();
+      result.total -= msg.px * msg.lh;
+      msg.lines[msg.lines.length - 1] = msg.lines[msg.lines.length - 1].replace(/\s*\S*$/, "…");
+    }
+  }
+
+  const x = align === "left" ? box.x : align === "right" ? box.x + box.w : box.x + box.w / 2;
+  let y = box.y + Math.max(0, (box.h - result.total) / 2);
+  ctx.textAlign = align;
+  ctx.textBaseline = "middle";
+  for (const bl of result.laid) {
+    y += bl.gap;
+    ctx.font = fontString(bl.font, bl.px, bl.italic);
+    setTracking(ctx, bl.tracking, bl.px);
+    ctx.fillStyle = bl.placeholder ? rgba(bl.color, 0.35) : bl.color;
+    for (const ln of bl.lines) {
+      const lh = bl.px * bl.lh;
+      ctx.fillText(ln, x, y + lh / 2);
+      y += lh;
+    }
+  }
+  setTracking(ctx, 0, 0);
+  return { scale, overflow };
+}
+
+function drawArtFace(canvas, ctx, opts, face, blocks, align, userScale) {
+  const entry = artImage(face.art.src);
+  if (entry.ready) {
+    ctx.drawImage(entry.img, 0, 0, UNITS_W, UNITS_W * RATIO);
+  } else {
+    // Draw again once the artwork arrives, unless this canvas has been redrawn since.
+    const token = (canvas._artToken = {});
+    entry.promise.then(() => { if (canvas._artToken === token) renderFace(canvas, opts); }, () => {});
+  }
+
+  const zones = face.art.zones;
+  const claimed = new Set(zones.flatMap(z => z.roles || []));
+  let scale = userScale, overflow = false;
+  for (const zone of zones) {
+    const mine = blocks
+      .filter(bl => (zone.roles ? zone.roles.includes(bl.role) : !claimed.has(bl.role)))
+      .map((bl, i) => ({
+        ...bl,
+        gap: i === 0 ? 0 : bl.gap,
+        color: bl.role === "title" || bl.role === "details" || bl.role === "secondary"
+          ? zone.accent || zone.ink || bl.color
+          : zone.ink || bl.color,
+      }));
+    if (!mine.length) continue;
+    if (zone.panel) {
+      ctx.fillStyle = rgba(zone.panel.color, zone.panel.alpha ?? 0.6);
+      ctx.beginPath();
+      ctx.roundRect(zone.x - 3, zone.y - 2, zone.w + 6, zone.h + 4, 2.5);
+      ctx.fill();
+    }
+    ctx.save();
+    if (face.art.shadow) {
+      ctx.shadowColor = "rgba(0, 0, 0, 0.55)";
+      ctx.shadowBlur = 0.8 * (canvas.width / UNITS_W);
+    }
+    const res = drawText(ctx, mine, zone, zone.align || align, userScale);
+    ctx.restore();
+    scale = Math.min(scale, res.scale);
+    overflow = overflow || res.overflow;
+  }
+  return { scale, overflow };
+}
+
 function drawWatermark(ctx, ink) {
   ctx.save();
   ctx.fillStyle = rgba(ink, 0.07);
@@ -191,50 +295,26 @@ export function renderFace(canvas, opts) {
   ctx.fillStyle = palette.bg;
   ctx.fillRect(0, 0, UNITS_W, UNITS_W * RATIO);
 
-  const rnd = seeded(hashString(template.id + ":" + face.id));
-  const box = drawMotif(face.motif, ctx, palette, rnd, values, fonts);
-  const blocks = buildBlocks(template, face, values, fonts, { ink, accent }, { preview, sample }, box.consumes || []);
-
   const userScale = Math.min(1.15, Math.max(0.85, (Number(design.size) || 100) / 100));
-  let scale = userScale, result = layout(ctx, blocks, box, scale);
-  while (!result.fits && scale > 0.5) {
-    scale -= 0.03;
-    result = layout(ctx, blocks, box, scale);
-  }
-  let overflow = !result.fits;
-  if (overflow) {
-    // Last resort: trim the longest block so nothing spills off the card.
-    const msg = result.laid.find(b => b.role === "message") || result.laid[result.laid.length - 1];
-    while (result.total > box.h && msg.lines.length > 1) {
-      msg.lines.pop();
-      result.total -= msg.px * msg.lh;
-      msg.lines[msg.lines.length - 1] = msg.lines[msg.lines.length - 1].replace(/\s*\S*$/, "…");
-    }
-  }
-
   const align = ["left", "center", "right"].includes(design.align) ? design.align : template.defaults.align || "center";
-  const x = align === "left" ? box.x : align === "right" ? box.x + box.w : box.x + box.w / 2;
-  let y = box.y + Math.max(0, (box.h - result.total) / 2);
-  ctx.textAlign = align;
-  ctx.textBaseline = "middle";
-  for (const bl of result.laid) {
-    y += bl.gap;
-    ctx.font = fontString(bl.font, bl.px, bl.italic);
-    setTracking(ctx, bl.tracking, bl.px);
-    ctx.fillStyle = bl.placeholder ? rgba(bl.color, 0.35) : bl.color;
-    for (const ln of bl.lines) {
-      const lh = bl.px * bl.lh;
-      ctx.fillText(ln, x, y + lh / 2);
-      y += lh;
-    }
+  let scale, overflow;
+  if (face.art) {
+    const blocks = buildBlocks(template, face, values, fonts, { ink, accent }, { preview, sample }, []);
+    ({ scale, overflow } = drawArtFace(canvas, ctx, opts, face, blocks, align, userScale));
+  } else {
+    canvas._artToken = null;
+    const rnd = seeded(hashString(template.id + ":" + face.id));
+    const box = drawMotif(face.motif, ctx, palette, rnd, values, fonts);
+    const blocks = buildBlocks(template, face, values, fonts, { ink, accent }, { preview, sample }, box.consumes || []);
+    ({ scale, overflow } = drawText(ctx, blocks, box, align, userScale));
   }
-  setTracking(ctx, 0, 0);
 
   if (preview) drawWatermark(ctx, ink);
   return { scale, overflow, shrunk: scale < userScale - 0.001 };
 }
 
-export function exportFace(opts, width) {
+export async function exportFace(opts, width) {
+  await loadTemplateArt(opts.template);
   const canvas = document.createElement("canvas");
   renderFace(canvas, { ...opts, width, preview: false, sample: false });
   return new Promise((resolve, reject) => {

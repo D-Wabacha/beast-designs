@@ -141,7 +141,7 @@ async function renderDesigner(template) {
       </div>`;
   };
 
-  const paletteHtml = face => `
+  const paletteHtml = face => face.palettes.length < 2 ? "" : `
     <fieldset>
       <legend class="label">${isBundle ? esc(face.label) + " colours" : "Colours"}</legend>
       <div class="swatches">
@@ -436,7 +436,7 @@ async function renderDesigner(template) {
     }
     form.querySelector(`[name="font"][value="${CSS.escape(state.design.font)}"]`).checked = true;
     form.querySelector(`[name="align"][value="${CSS.escape(state.design.align)}"]`).checked = true;
-    for (const face of template.faces) form.querySelector(`[name="palette-${CSS.escape(face.id)}"][value="${CSS.escape(state.design.palettes[face.id])}"]`).checked = true;
+    for (const face of template.faces) { const r = form.querySelector(`[name="palette-${CSS.escape(face.id)}"][value="${CSS.escape(state.design.palettes[face.id])}"]`); if (r) r.checked = true; }
     $("#size").value = state.design.size;
     $("#size-out").textContent = `${state.design.size}%`;
     updateInks(); updateChips(); schedule();

@@ -258,6 +258,11 @@ main { display: block; }
 .product-art.is-bundle canvas:last-child { transform: translate(22%, 4%) rotate(5deg); }
 .product-link:hover .product-art { background: var(--rose-soft); }
 .product-link:hover .product-art canvas:only-child { transform: translateY(-4px); }
+.product-badge {
+  position: absolute; top: 10px; left: 10px; z-index: 1; padding: 3px 9px; border-radius: 999px;
+  background: var(--wine); color: #fff; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+}
+.center-actions { text-align: center; }
 .product-body { padding: 12px 2px 0; }
 .product-occ { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--brass); margin: 0 0 2px; }
 .product-name { font-size: 1.08rem; margin: 0 0 4px; }

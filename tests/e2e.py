@@ -15,6 +15,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from pathlib import Path
 import urllib.parse
 import urllib.request
 
@@ -203,7 +204,9 @@ def main():
         print("Catalogue search and filters")
         b.goto(BASE + "/shop.html")
         total = b.js("document.querySelectorAll('#results .product').length")
-        check("catalogue lists all published designs", total == 28, total)
+        catalog = json.loads((Path(__file__).resolve().parent.parent / "data" / "templates.json").read_text(encoding="utf-8"))
+        published = sum(t["status"] == "published" for t in catalog["templates"])
+        check("catalogue lists all published designs", total == published, (total, published))
         set_value(b, "#f-q", "pole")
         time.sleep(0.5)
         names = b.js("[...document.querySelectorAll('#results .product-name')].map(e => e.textContent)")

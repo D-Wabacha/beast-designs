@@ -8,10 +8,15 @@ const lowest = Math.min(...catalog.templates.map(t => t.price.amount));
 const heroPrice = $("[data-hero-price]");
 if (heroPrice) heroPrice.textContent = money(lowest, business);
 
-const featured = catalog.templates.filter(t => t.featured).slice(0, 5);
+const featured = catalog.templates.filter(t => t.featured).slice(0, 9);
 $("#featured").innerHTML = featured
   .map((t, i) => productCardHtml(data, t, { variant: i === 0 ? "product--lead" : "" }))
   .join("");
+
+const fresh = catalog.templates.filter(t => t.new);
+$("#more-new").innerHTML = fresh.filter(t => !t.featured).slice(0, 8).map(t => productCardHtml(data, t)).join("");
+const newCount = $("[data-new-count]");
+if (newCount) newCount.textContent = `See all ${fresh.length} new designs`;
 
 const counts = Object.fromEntries(occasions.map(o => [o.id, catalog.templates.filter(t => t.occasions.includes(o.id)).length]));
 $("#occasion-groups").innerHTML = groups.map(g => `

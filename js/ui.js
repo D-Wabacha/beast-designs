@@ -224,6 +224,7 @@ export function productCardHtml(data, t, { variant = "" } = {}) {
   <article class="product ${variant}">
     <a class="product-link" href="customize.html?t=${encodeURIComponent(t.id)}" aria-label="${esc(t.name)}, ${esc(priceLabel(t, data.business))}. Customise this design.">
       <div class="product-art${bundle ? " is-bundle" : ""}">
+        ${t.new ? `<span class="product-badge">New</span>` : ""}
         ${t.faces.map(f => `<canvas data-thumb="${esc(t.id)}" data-face="${esc(f.id)}" role="img" aria-label="${esc(t.name)} ${bundle ? esc(f.label) : "card"} design preview"></canvas>`).join("")}
       </div>
       <div class="product-body">

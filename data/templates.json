@@ -224,6 +224,158 @@
       "accent": "#8C6D3F",
       "accent2": "#6E1E2B",
       "soft": "#E4DCCD"
+    },
+    "art-gold-noir": {
+      "name": "Gold on black",
+      "bg": "#141416",
+      "ink": "#F3E7C9",
+      "accent": "#E2C27A",
+      "accent2": "#C9A45C",
+      "soft": "#2A2A2E"
+    },
+    "art-gold-navy": {
+      "name": "Gold on navy",
+      "bg": "#13204A",
+      "ink": "#F4EAD5",
+      "accent": "#E6C67C",
+      "accent2": "#C9A45C",
+      "soft": "#22305E"
+    },
+    "art-gold-emerald": {
+      "name": "Gold on emerald",
+      "bg": "#123A2D",
+      "ink": "#F4EBD9",
+      "accent": "#E2C27A",
+      "accent2": "#C9A45C",
+      "soft": "#1E4A3B"
+    },
+    "art-mono-noir": {
+      "name": "Ivory on black",
+      "bg": "#161616",
+      "ink": "#F5F1EA",
+      "accent": "#D8D2C6",
+      "accent2": "#C9A45C",
+      "soft": "#2A2A2A"
+    },
+    "art-silver-sapphire": {
+      "name": "Silver on sapphire",
+      "bg": "#0F1A3A",
+      "ink": "#F2F5FB",
+      "accent": "#C7D6F4",
+      "accent2": "#9FB3DD",
+      "soft": "#1D2C5A"
+    },
+    "art-ivory-wine": {
+      "name": "Wine on ivory",
+      "bg": "#FBF6EF",
+      "ink": "#4E1A24",
+      "accent": "#9C3445",
+      "accent2": "#A8823F",
+      "soft": "#F0DCD6"
+    },
+    "art-white-navy": {
+      "name": "Navy on white",
+      "bg": "#FFFFFF",
+      "ink": "#1E2B57",
+      "accent": "#34508F",
+      "accent2": "#A8823F",
+      "soft": "#E4E9F5"
+    },
+    "art-white-emerald": {
+      "name": "Emerald on white",
+      "bg": "#FFFFFF",
+      "ink": "#173F31",
+      "accent": "#2F6B52",
+      "accent2": "#9C7A3A",
+      "soft": "#E3EEE8"
+    },
+    "art-white-charcoal": {
+      "name": "Charcoal on white",
+      "bg": "#FFFFFF",
+      "ink": "#2A2524",
+      "accent": "#6B5A3A",
+      "accent2": "#9C7A3A",
+      "soft": "#EEEAE4"
+    },
+    "art-pink-white": {
+      "name": "Berry on white",
+      "bg": "#FFFFFF",
+      "ink": "#5E1A3E",
+      "accent": "#A8386E",
+      "accent2": "#B8862A",
+      "soft": "#F8E1EC"
+    },
+    "art-lilac": {
+      "name": "Violet on lilac",
+      "bg": "#F7F1FB",
+      "ink": "#432663",
+      "accent": "#6E44A0",
+      "accent2": "#A8823F",
+      "soft": "#E9DDF4"
+    },
+    "art-blush": {
+      "name": "Wine on blush",
+      "bg": "#F2D6D6",
+      "ink": "#4E1222",
+      "accent": "#7E2438",
+      "accent2": "#8A6A2E",
+      "soft": "#EFC9C6"
+    },
+    "art-neon-rose": {
+      "name": "Wine on rose",
+      "bg": "#EBB0B6",
+      "ink": "#3E0812",
+      "accent": "#6E1424",
+      "accent2": "#5A3A10",
+      "soft": "#F4CDD1"
+    },
+    "art-sage": {
+      "name": "Wine on sage",
+      "bg": "#A9BBA3",
+      "ink": "#5E0F1F",
+      "accent": "#6E1424",
+      "accent2": "#3E2A12",
+      "soft": "#C9D6C4"
+    },
+    "art-honey": {
+      "name": "Brown on cream",
+      "bg": "#FBF3DF",
+      "ink": "#3F2C0E",
+      "accent": "#7A4E0E",
+      "accent2": "#B8862A",
+      "soft": "#F3E2B8"
+    },
+    "art-ice": {
+      "name": "Navy on frost",
+      "bg": "#F3F6FC",
+      "ink": "#1C2F5E",
+      "accent": "#3A5BA0",
+      "accent2": "#8A97B8",
+      "soft": "#DDE5F4"
+    },
+    "art-royal-cream": {
+      "name": "Royal blue on cream",
+      "bg": "#F7EEDB",
+      "ink": "#1B2A6B",
+      "accent": "#2C46A8",
+      "accent2": "#A8823F",
+      "soft": "#EADFC6"
+    },
+    "art-graffiti": {
+      "name": "Ink on white",
+      "bg": "#F7F5F2",
+      "ink": "#2B2D7A",
+      "accent": "#C22A6E",
+      "accent2": "#3A6FC4",
+      "soft": "#EDE8F3"
+    },
+    "art-race-red": {
+      "name": "Red on white",
+      "bg": "#FFFFFF",
+      "ink": "#1C1C1C",
+      "accent": "#C8102E",
+      "accent2": "#E8A317",
+      "soft": "#FBE3E6"
     }
   },
   "textColors": [
@@ -258,6 +410,5559 @@
   },
   "templates": [
     {
+      "id": "wedding-emerald",
+      "name": "Emerald Wedding",
+      "occasions": [
+        "anniversary-wedding",
+        "invitations"
+      ],
+      "description": "Gold peonies, doves and satin ribbon on deep emerald, with “Our Wedding” in gold. The couple's names go in gold across the bottom.",
+      "keywords": [
+        "wedding",
+        "invitation",
+        "harusi",
+        "save the date",
+        "bride",
+        "groom"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/wedding-emerald.jpg",
+            "zones": [
+              {
+                "x": 12,
+                "y": 113.5,
+                "w": 76,
+                "h": 17,
+                "roles": [
+                  "recipient"
+                ],
+                "ink": "#EBCB7E",
+                "panel": {
+                  "color": "#0E3326",
+                  "alpha": 0.7
+                }
+              },
+              {
+                "x": 24,
+                "y": 46,
+                "w": 52,
+                "h": 58
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-emerald"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Bride & groom's names",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Wanjiru & Brian"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "Together with their families, invite you to celebrate their union."
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Date, time and venue",
+          "type": "text",
+          "maxLength": 90,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Sat 12 Dec 2026 · 10 AM · All Saints Cathedral"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Together with their families, invite you to celebrate their union.",
+          "Please join us as we say “I do”.",
+          "Thank you for celebrating with us."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "birthday-my-king",
+      "name": "Birthday King",
+      "occasions": [
+        "birthday",
+        "fathers-day",
+        "romantic"
+      ],
+      "description": "Royal navy and gold with sapphire roses and a gilded cake. “Happy Birthday My King” is already on the card.",
+      "keywords": [
+        "king",
+        "husband",
+        "boyfriend",
+        "him",
+        "navy",
+        "roses",
+        "cake",
+        "birthday"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/birthday-my-king.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 31,
+                "w": 60,
+                "h": 76
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "His name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Brian"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 280,
+          "required": true,
+          "default": "To the man who leads with love and laughs the loudest: may this year crown you with everything you deserve."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Forever yours,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "success-laurel",
+      "name": "Laurel Success",
+      "occasions": [
+        "exam-success",
+        "graduation",
+        "congratulations",
+        "new-job"
+      ],
+      "description": "Fireworks over a golden laurel on deep emerald. Their name and your words sit inside the wreath.",
+      "keywords": [
+        "success",
+        "laurel",
+        "kcse",
+        "results",
+        "achievement",
+        "emerald",
+        "gold"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/success-laurel.jpg",
+            "zones": [
+              {
+                "x": 27,
+                "y": 60,
+                "w": 46,
+                "h": 54
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-emerald"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Their name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Akinyi"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Achievement",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. KCSE 2026 · A plain"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Your hard work has paid off. We are so proud of you, and this is only the beginning."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With pride,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Hongera! Your hard work and late nights have paid off.",
+          "We always knew you could do it. The best is yet to come.",
+          "Proud of you today and always. Keep shining."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "anniversary-golden-scroll",
+      "name": "Golden Scroll Anniversary",
+      "occasions": [
+        "anniversary-wedding"
+      ],
+      "description": "A jewelled golden scroll among red roses, with “Happy Anniversary” and “Celebrating your love forever & always” already lettered. Add the couple's names.",
+      "keywords": [
+        "anniversary",
+        "scroll",
+        "gold",
+        "red roses",
+        "couple",
+        "luxury"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-golden-scroll.jpg",
+            "zones": [
+              {
+                "x": 14,
+                "y": 129,
+                "w": 72,
+                "h": 14,
+                "panel": {
+                  "color": "#160B08",
+                  "alpha": 0.72
+                }
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Couple's names",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Brian & Wanjiru"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Years or date",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. 10 years · 12.12.2016"
+        }
+      ],
+      "suggestions": {},
+      "new": true
+    },
+    {
+      "id": "birthday-gold-splash",
+      "name": "Golden Splash Birthday",
+      "occasions": [
+        "birthday"
+      ],
+      "description": "A burst of gold sparks and ribbons on black, with “Happy Birthday” in gold script and a bright splash for your words.",
+      "keywords": [
+        "birthday",
+        "gold",
+        "black",
+        "sparkle",
+        "glam"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/birthday-gold-splash.jpg",
+            "zones": [
+              {
+                "x": 22,
+                "y": 52,
+                "w": 56,
+                "h": 56
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Their name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Faith"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Another year older, wiser and even more wonderful. Have the best day!"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "memorial-candles",
+      "name": "Candlelit Memorial",
+      "occasions": [
+        "sympathy",
+        "religious"
+      ],
+      "description": "A dignified memorial card in charcoal, with candles and white calla lilies. Their name and dates sit in the oval; your tribute below.",
+      "keywords": [
+        "memorial",
+        "funeral",
+        "in loving memory",
+        "rip",
+        "obituary",
+        "candles"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/memorial-candles.jpg",
+            "zones": [
+              {
+                "x": 31,
+                "y": 32,
+                "w": 38,
+                "h": 40,
+                "roles": [
+                  "recipient",
+                  "details"
+                ]
+              },
+              {
+                "x": 14,
+                "y": 85,
+                "w": 72,
+                "h": 21
+              }
+            ]
+          },
+          "palettes": [
+            "art-mono-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name of your loved one",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Mary Wanjiku"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Years",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. 1939 – 2026"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 160,
+          "required": true,
+          "default": "Forever in our hearts."
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. The Kamau family"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Forever in our hearts.",
+          "Gone from our sight, but never from our hearts.",
+          "Rest in perfect peace."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "black-gold-celebration",
+      "name": "Black & Gold Celebration",
+      "occasions": [
+        "birthday",
+        "new-year",
+        "invitations",
+        "congratulations"
+      ],
+      "description": "Disco balls, gold and black balloons and falling confetti. A party card that works for birthdays and New Year alike.",
+      "keywords": [
+        "party",
+        "disco",
+        "balloons",
+        "new year",
+        "black and gold",
+        "celebration"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/black-gold-celebration.jpg",
+            "zones": [
+              {
+                "x": 15,
+                "y": 22,
+                "w": 58,
+                "h": 90
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Kevin"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 280,
+          "required": true,
+          "default": "Cheers to you and to all the adventures still ahead. Let's make this year the best one yet!"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Date or occasion",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Cheers,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday",
+          "Happy New Year",
+          "Cheers to you",
+          "Let's celebrate"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "super-mom",
+      "name": "Super Mom",
+      "occasions": [
+        "mothers-day",
+        "birthday"
+      ],
+      "description": "Pink peonies, “Happy Mother's Day” and a #SuperMom banner, with a big white space for your words.",
+      "keywords": [
+        "mother's day",
+        "super mom",
+        "mum",
+        "mama",
+        "pink",
+        "peonies"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/super-mom.jpg",
+            "zones": [
+              {
+                "x": 8,
+                "y": 52,
+                "w": 84,
+                "h": 62
+              }
+            ]
+          },
+          "palettes": [
+            "art-pink-white"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "warm",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Mum",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Wanjiru"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Thank you for every sacrifice, every prayer and every hug. You are the best!"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Love you always,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Thank you for every sacrifice, every prayer and every hug, Mama.",
+          "You are the heart of our family. We love you so much.",
+          "Everything good in me, I learned from you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "wedding-crimson",
+      "name": "Crimson Wedding",
+      "occasions": [
+        "anniversary-wedding",
+        "invitations"
+      ],
+      "description": "Red roses, doves and gold-and-crimson ribbon on black, with “Our Wedding” in gold. The couple's names go in gold across the bottom.",
+      "keywords": [
+        "wedding",
+        "invitation",
+        "harusi",
+        "save the date",
+        "bride",
+        "groom"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": true,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/wedding-crimson.jpg",
+            "zones": [
+              {
+                "x": 12,
+                "y": 113.5,
+                "w": 76,
+                "h": 17,
+                "roles": [
+                  "recipient"
+                ],
+                "ink": "#EBCB7E",
+                "panel": {
+                  "color": "#0A0606",
+                  "alpha": 0.7
+                }
+              },
+              {
+                "x": 24,
+                "y": 41,
+                "w": 52,
+                "h": 64
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Bride & groom's names",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Wanjiru & Brian"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "Together with their families, invite you to celebrate their union."
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Date, time and venue",
+          "type": "text",
+          "maxLength": 90,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Sat 12 Dec 2026 · 10 AM · All Saints Cathedral"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Together with their families, invite you to celebrate their union.",
+          "Please join us as we say “I do”.",
+          "Thank you for celebrating with us."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "success-graduate",
+      "name": "Graduate in Bloom",
+      "occasions": [
+        "graduation",
+        "congratulations",
+        "exam-success"
+      ],
+      "description": "Navy and gold satin, a mortarboard on a stack of books and roses in pink and blue. The graduate's name goes under “Success”.",
+      "keywords": [
+        "graduation",
+        "graduate",
+        "degree",
+        "books",
+        "roses",
+        "navy",
+        "gold"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/success-graduate.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 14.4,
+                "w": 68,
+                "h": 5.6,
+                "roles": [
+                  "recipient"
+                ],
+                "ink": "#F3E3B5"
+              },
+              {
+                "x": 23,
+                "y": 95,
+                "w": 54,
+                "h": 36
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Graduate's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Naomi Mumbi Kamau"
+        },
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Congratulations!"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 160,
+          "required": true,
+          "default": "All those late nights led to this moment. We are so proud of you."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Hongera! Your hard work and late nights have paid off.",
+          "We always knew you could do it. The best is yet to come.",
+          "Proud of you today and always. Keep shining."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "success-trophy",
+      "name": "Golden Trophy",
+      "occasions": [
+        "congratulations",
+        "exam-success",
+        "new-job",
+        "business"
+      ],
+      "description": "Gold balloons, a shimmering trophy and a ring of sparkle on midnight blue. Made for a big win.",
+      "keywords": [
+        "trophy",
+        "winner",
+        "award",
+        "balloons",
+        "success",
+        "promotion"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/success-trophy.jpg",
+            "zones": [
+              {
+                "x": 21,
+                "y": 41,
+                "w": 54,
+                "h": 44
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Their name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Otieno"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "You did it! Congratulations on a well-deserved win."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Cheers,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Hongera! Your hard work and late nights have paid off.",
+          "We always knew you could do it. The best is yet to come.",
+          "Proud of you today and always. Keep shining."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "success-stairs",
+      "name": "Rising Success",
+      "occasions": [
+        "new-job",
+        "congratulations",
+        "business",
+        "exam-success"
+      ],
+      "description": "A golden staircase and an upward arrow on deep navy. Says “onwards and upwards” to anyone starting something new.",
+      "keywords": [
+        "new job",
+        "promotion",
+        "career",
+        "stairs",
+        "growth",
+        "business"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/success-stairs.jpg",
+            "zones": [
+              {
+                "x": 11,
+                "y": 34,
+                "w": 60,
+                "h": 54
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "left"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Their name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Muthoni"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 240,
+          "required": true,
+          "default": "Every step brought you here. Congratulations on your new role. The best is yet to come."
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Role or milestone",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Senior Manager, KCB"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Onwards and upwards,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Congratulations on the promotion. You earned every bit of it.",
+          "New job, new heights. We're cheering you on!"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "besties-4-ever",
+      "name": "Besties 4 Ever",
+      "occasions": [
+        "friendship",
+        "birthday",
+        "just-because"
+      ],
+      "description": "Loud graffiti hearts in pink and blue with a polaroid frame for your note. For the friend who gets you.",
+      "keywords": [
+        "bestie",
+        "bff",
+        "graffiti",
+        "polaroid",
+        "friend",
+        "sister"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/besties-4-ever.jpg",
+            "zones": [
+              {
+                "x": 22,
+                "y": 71,
+                "w": 56,
+                "h": 47
+              }
+            ]
+          },
+          "palettes": [
+            "art-graffiti"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "warm",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Your bestie's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Shiro"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 160,
+          "required": true,
+          "default": "Through every season, you've been right there. Love you!"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Your partner in crime,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Through every season, you've been right there. Love you, rafiki.",
+          "Life is so much better with you in it.",
+          "Here's to more laughs, more adventures and more memories."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "besties-blush",
+      "name": "Blush Besties",
+      "occasions": [
+        "friendship",
+        "birthday",
+        "just-because",
+        "thank-you"
+      ],
+      "description": "Two friends side by side on soft blush watercolour, with butterflies and lots of room for a long message.",
+      "keywords": [
+        "friends",
+        "bestie",
+        "sister",
+        "watercolour",
+        "pink",
+        "girls"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/besties-blush.jpg",
+            "zones": [
+              {
+                "x": 12,
+                "y": 24,
+                "w": 76,
+                "h": 80
+              }
+            ]
+          },
+          "palettes": [
+            "art-blush"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "To my person"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Njeri"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 360,
+          "required": true,
+          "default": "Thank you for every late-night talk, every laugh and every time you showed up for me. I don't know what I'd do without you."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Always your girl,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "To my person",
+          "Happy Birthday, Bestie",
+          "Thank you, friend"
+        ],
+        "message": [
+          "Through every season, you've been right there. Love you, rafiki.",
+          "Life is so much better with you in it.",
+          "Here's to more laughs, more adventures and more memories."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "love-gilded-frame",
+      "name": "Gilded Love",
+      "occasions": [
+        "romantic",
+        "valentines",
+        "anniversary-wedding"
+      ],
+      "description": "An ornate gold frame above a bed of red roses, with “Love” in gold script on black satin.",
+      "keywords": [
+        "love",
+        "romance",
+        "roses",
+        "gold frame",
+        "valentine"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/love-gilded-frame.jpg",
+            "zones": [
+              {
+                "x": 29,
+                "y": 35,
+                "w": 42,
+                "h": 68
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Amani"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Nakupenda. Every day with you is my favourite day."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "All my love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Nakupenda. Every day with you is my favourite day.",
+          "You are my calm, my joy and my home.",
+          "Thank you for loving me the way you do."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "anniversary-rose-parchment",
+      "name": "Parchment Anniversary",
+      "occasions": [
+        "anniversary-wedding",
+        "romantic"
+      ],
+      "description": "Warm parchment framed by candlelit sparkle, with roses in blush and blue and a heart of red petals.",
+      "keywords": [
+        "anniversary",
+        "parchment",
+        "roses",
+        "couple",
+        "years together"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-rose-parchment.jpg",
+            "zones": [
+              {
+                "x": 24,
+                "y": 28,
+                "w": 52,
+                "h": 62
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Wanjiru"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Milestone",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. 10 years together"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Here's to the years behind us and the many more ahead. I'd choose you all over again."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Yours always,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Here's to the years behind us and the many more ahead.",
+          "Still choosing you, every single day.",
+          "Thank you for every laugh, every lesson and every year of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "thank-you-tulips",
+      "name": "Tulip Thank You",
+      "occasions": [
+        "thank-you",
+        "business",
+        "just-because"
+      ],
+      "description": "Bold red tulips on calm sage with “Thank You Very Much” already lettered. Add who it's for and a short note.",
+      "keywords": [
+        "thank you",
+        "asante",
+        "tulips",
+        "sage",
+        "appreciation"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-tulips.jpg",
+            "zones": [
+              {
+                "x": 40,
+                "y": 45,
+                "w": 56,
+                "h": 24,
+                "align": "right"
+              }
+            ]
+          },
+          "palettes": [
+            "art-sage"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Who it's for",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Mr. & Mrs. Zhang"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 90,
+          "required": true,
+          "default": "For your kindness and generosity."
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "For your kindness and generosity.",
+          "For making our day so special.",
+          "For always being there."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "neon-rose-frame",
+      "name": "Neon Rose",
+      "occasions": [
+        "valentines",
+        "romantic",
+        "birthday"
+      ],
+      "description": "A glowing neon-pink frame with deep red roses spilling over the corners. Modern, bold and very romantic.",
+      "keywords": [
+        "neon",
+        "valentine",
+        "roses",
+        "pink",
+        "love",
+        "modern"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/neon-rose-frame.jpg",
+            "zones": [
+              {
+                "x": 25,
+                "y": 22,
+                "w": 50,
+                "h": 96
+              }
+            ]
+          },
+          "palettes": [
+            "art-neon-rose"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Be mine"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Tasha"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 240,
+          "required": true,
+          "default": "You light up every room, and every day of mine."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "All my love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Be mine",
+          "Happy Valentine's",
+          "I love you"
+        ],
+        "message": [
+          "Nakupenda. Every day with you is my favourite day.",
+          "You are my calm, my joy and my home.",
+          "Thank you for loving me the way you do."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "royal-blue-envelope",
+      "name": "Royal Envelope",
+      "occasions": [
+        "invitations",
+        "birthday",
+        "anniversary-wedding",
+        "congratulations"
+      ],
+      "description": "A cream card rising from a royal-blue envelope, crowned in gold and tied with a satin bow. Great for invitations.",
+      "keywords": [
+        "invitation",
+        "royal",
+        "crown",
+        "envelope",
+        "blue",
+        "party",
+        "event"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/royal-blue-envelope.jpg",
+            "zones": [
+              {
+                "x": 17,
+                "y": 33,
+                "w": 66,
+                "h": 38
+              }
+            ]
+          },
+          "palettes": [
+            "art-royal-cream"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "You're invited"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 180,
+          "required": true,
+          "default": "Join us for an evening of food, music and celebration."
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Date, time and venue",
+          "type": "text",
+          "maxLength": 90,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Sat 14 Dec · 6 PM · Karen, Nairobi"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Hosted by",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. The Mwangi family"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "You're invited",
+          "Save the date",
+          "Happy Birthday"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "emerald-pearl-blooms",
+      "name": "Emerald Pearl",
+      "occasions": [
+        "anniversary-wedding",
+        "invitations",
+        "thank-you",
+        "religious"
+      ],
+      "description": "White blooms, pearls and gold leaves on an emerald band, beside a clean white panel with a gold border.",
+      "keywords": [
+        "pearl",
+        "emerald",
+        "elegant",
+        "wedding",
+        "white flowers",
+        "gold"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/emerald-pearl-blooms.jpg",
+            "zones": [
+              {
+                "x": 52,
+                "y": 20,
+                "w": 40,
+                "h": 108
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-emerald"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Anniversary"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mum and Dad"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Thank you for showing us what a lasting love looks like."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Anniversary",
+          "Thank you",
+          "Save the Date",
+          "Congratulations"
+        ],
+        "message": [
+          "Here's to the years behind us and the many more ahead.",
+          "Still choosing you, every single day.",
+          "Thank you for every laugh, every lesson and every year of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "birthday-black-cake",
+      "name": "Black Cake Birthday",
+      "occasions": [
+        "birthday"
+      ],
+      "description": "Black gift boxes, gold balloons and a towering black-and-gold cake. A slate banner holds your message.",
+      "keywords": [
+        "birthday",
+        "cake",
+        "black",
+        "gold",
+        "gifts",
+        "him"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/birthday-black-cake.jpg",
+            "zones": [
+              {
+                "x": 13,
+                "y": 68,
+                "w": 38,
+                "h": 62
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Their name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Ian"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 160,
+          "required": true,
+          "default": "Wishing you a year as bold as you are."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Cheers,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "midnight-gifts",
+      "name": "Midnight Gifts",
+      "occasions": [
+        "birthday",
+        "business",
+        "christmas",
+        "thank-you"
+      ],
+      "description": "Midnight satin with gold leaves, baubles and wrapped gifts. Your headline sits inside the glittering ring.",
+      "keywords": [
+        "gifts",
+        "navy",
+        "gold",
+        "elegant",
+        "corporate",
+        "festive"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/midnight-gifts.jpg",
+            "zones": [
+              {
+                "x": 12,
+                "y": 10,
+                "w": 28,
+                "h": 22,
+                "roles": [
+                  "title"
+                ]
+              },
+              {
+                "x": 16,
+                "y": 46,
+                "w": 62,
+                "h": 62
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 24,
+          "required": true,
+          "default": "Happy Birthday"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Grace"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 280,
+          "required": true,
+          "default": "Wishing you a beautiful year ahead, full of good surprises."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Warmly,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday",
+          "Thank You",
+          "Season's Greetings"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "calla-lily-black",
+      "name": "Calla Lily",
+      "occasions": [
+        "sympathy",
+        "religious",
+        "get-well"
+      ],
+      "description": "White calla lilies around a black panel. Quiet and dignified, for words of comfort.",
+      "keywords": [
+        "calla lily",
+        "sympathy",
+        "condolences",
+        "pole",
+        "black",
+        "white"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/calla-lily-black.jpg",
+            "zones": [
+              {
+                "x": 24,
+                "y": 44,
+                "w": 40,
+                "h": 40
+              }
+            ]
+          },
+          "palettes": [
+            "art-mono-noir"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Who it's for",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. the Otieno family"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "With deepest sympathy. May you find comfort in loving memories."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love and prayers,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Pole sana. We are holding you close in our thoughts and prayers.",
+          "With deepest sympathy. May you find comfort in loving memories."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "pink-noir-butterflies",
+      "name": "Pink Noir Butterflies",
+      "occasions": [
+        "valentines",
+        "romantic",
+        "friendship",
+        "birthday"
+      ],
+      "description": "Paper flowers in pink and black, a glossy black heart and fluttering butterflies around a soft grey centre.",
+      "keywords": [
+        "butterflies",
+        "pink",
+        "black",
+        "heart",
+        "paper flowers"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/pink-noir-butterflies.jpg",
+            "zones": [
+              {
+                "x": 28,
+                "y": 38,
+                "w": 58,
+                "h": 76
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "I love you"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Babe"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 260,
+          "required": true,
+          "default": "You give me butterflies, every single time."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Yours,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "I love you",
+          "Happy Birthday",
+          "Thinking of you"
+        ],
+        "message": [
+          "Nakupenda. Every day with you is my favourite day.",
+          "You are my calm, my joy and my home.",
+          "Thank you for loving me the way you do."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "noir-emerald-blooms",
+      "name": "Noir & Emerald",
+      "occasions": [
+        "thank-you",
+        "business",
+        "sympathy",
+        "fathers-day"
+      ],
+      "description": "Black paper flowers with pearl centres and emerald leaves around a crisp white panel. Smart and understated.",
+      "keywords": [
+        "black",
+        "emerald",
+        "pearl",
+        "elegant",
+        "corporate",
+        "thank you"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/noir-emerald-blooms.jpg",
+            "zones": [
+              {
+                "x": 22,
+                "y": 22,
+                "w": 58,
+                "h": 96
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Thank you"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mr. Kariuki"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 320,
+          "required": true,
+          "default": "Your support this year has meant a great deal to all of us."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With appreciation,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Thank you",
+          "With sympathy",
+          "Happy Father's Day"
+        ],
+        "message": [
+          "Asante sana for your kindness. It meant more than you know.",
+          "Thank you for always being there when it mattered.",
+          "Your generosity made a real difference. Thank you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "winter-frost",
+      "name": "Winter Frost",
+      "occasions": [
+        "christmas",
+        "new-year",
+        "business"
+      ],
+      "description": "Frosted blue leaves, pearls and silver filigree around a snowy white panel. A cool, elegant season's greeting.",
+      "keywords": [
+        "christmas",
+        "winter",
+        "frost",
+        "silver",
+        "blue",
+        "season's greetings"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/winter-frost.jpg",
+            "zones": [
+              {
+                "x": 32,
+                "y": 18,
+                "w": 48,
+                "h": 112
+              }
+            ]
+          },
+          "palettes": [
+            "art-ice"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Merry Christmas"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. the Njoroge family"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Wishing you peace, joy and a wonderful year ahead."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Warm wishes,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Merry Christmas",
+          "Season's Greetings",
+          "Happy New Year",
+          "Krismasi Njema"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "graduation-cap-blooms",
+      "name": "Cap & Blooms",
+      "occasions": [
+        "graduation",
+        "exam-success"
+      ],
+      "description": "A navy mortarboard above blue-and-white blooms on a clean white card. Simple and proud.",
+      "keywords": [
+        "graduation",
+        "cap",
+        "blue flowers",
+        "degree",
+        "class of"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/graduation-cap-blooms.jpg",
+            "zones": [
+              {
+                "x": 12,
+                "y": 36,
+                "w": 76,
+                "h": 58
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Congratulations, Graduate"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Achieng"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 260,
+          "required": true,
+          "default": "All those late nights led to this moment. We are so proud of you."
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Class or course",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. BSc Nursing · Class of 2026"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Hongera! Your hard work and late nights have paid off.",
+          "We always knew you could do it. The best is yet to come.",
+          "Proud of you today and always. Keep shining."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "rose-heart",
+      "name": "Rose Heart",
+      "occasions": [
+        "valentines",
+        "romantic",
+        "mothers-day",
+        "anniversary-wedding"
+      ],
+      "description": "A white heart wreathed in red roses, daisies and floating hearts. Short and sweet.",
+      "keywords": [
+        "heart",
+        "roses",
+        "valentine",
+        "red",
+        "love"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/rose-heart.jpg",
+            "zones": [
+              {
+                "x": 31,
+                "y": 47,
+                "w": 38,
+                "h": 28
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 24,
+          "required": true,
+          "default": "I love you"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 90,
+          "required": true,
+          "default": "You have my whole heart."
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "I love you",
+          "Be mine",
+          "Love you, Mum"
+        ],
+        "message": [
+          "You have my whole heart.",
+          "Forever and always.",
+          "Nakupenda sana."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "butterfly-roses",
+      "name": "Ruby Butterflies",
+      "occasions": [
+        "mothers-day",
+        "birthday",
+        "just-because",
+        "get-well"
+      ],
+      "description": "Ruby butterflies and soft roses gather in the corners of a bright white card.",
+      "keywords": [
+        "butterflies",
+        "roses",
+        "red",
+        "white",
+        "pretty"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/butterfly-roses.jpg",
+            "zones": [
+              {
+                "x": 24,
+                "y": 52,
+                "w": 60,
+                "h": 42
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "For you, Mama"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 240,
+          "required": true,
+          "default": "Thank you for every sacrifice, every prayer and every hug."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "For you, Mama",
+          "Happy Birthday",
+          "Thinking of you"
+        ],
+        "message": [
+          "Thank you for every sacrifice, every prayer and every hug, Mama.",
+          "You are the heart of our family. We love you so much.",
+          "Everything good in me, I learned from you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "gentlemans-watch",
+      "name": "The Gentleman",
+      "occasions": [
+        "fathers-day",
+        "birthday",
+        "new-job",
+        "business",
+        "retirement"
+      ],
+      "description": "A watercolour gentleman adjusting his watch, on soft blue with a fine gold frame. Classy, for the man in your life.",
+      "keywords": [
+        "dad",
+        "father",
+        "gentleman",
+        "watch",
+        "suit",
+        "him",
+        "boss"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/gentlemans-watch.jpg",
+            "zones": [
+              {
+                "x": 34,
+                "y": 18,
+                "w": 52,
+                "h": 64
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Father's Day"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Dad",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Wanjiru"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 260,
+          "required": true,
+          "default": "Thank you for your strength, your wisdom and your time."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love and respect,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Father's Day",
+          "Happy Birthday",
+          "Congratulations",
+          "Happy Retirement"
+        ],
+        "message": [
+          "Thank you for your strength, your wisdom and your bad jokes.",
+          "Asante Baba, for showing me what a good man looks like.",
+          "Everything I am, I owe to your example. Happy Father's Day."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "best-dad-ever",
+      "name": "Best Dad Ever",
+      "occasions": [
+        "fathers-day",
+        "birthday"
+      ],
+      "description": "A bowler hat, a dotted bow tie and “Best Dad Ever” in bold lettering on black and gold.",
+      "keywords": [
+        "dad",
+        "father",
+        "baba",
+        "bow tie",
+        "hat",
+        "best dad"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/best-dad-ever.jpg",
+            "zones": [
+              {
+                "x": 19,
+                "y": 42,
+                "w": 62,
+                "h": 42
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Dad",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Wanjiru"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Asante Baba, for showing me what a good man looks like."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Your favourite child,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Thank you for your strength, your wisdom and your bad jokes.",
+          "Asante Baba, for showing me what a good man looks like.",
+          "Everything I am, I owe to your example. Happy Father's Day."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "emerald-silver-balloons",
+      "name": "Emerald & Silver",
+      "occasions": [
+        "birthday",
+        "congratulations",
+        "new-year",
+        "retirement"
+      ],
+      "description": "Emerald and silver balloons with curling ribbons along the edge of a clean white card.",
+      "keywords": [
+        "balloons",
+        "emerald",
+        "silver",
+        "green",
+        "celebration"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/emerald-silver-balloons.jpg",
+            "zones": [
+              {
+                "x": 5,
+                "y": 22,
+                "w": 46,
+                "h": 108
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-emerald"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mercy"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Cheers to you and to all the adventures still ahead."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Cheers,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday",
+          "Congratulations",
+          "Happy Retirement",
+          "Happy New Year"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "royal-navy-crown",
+      "name": "Royal Crown",
+      "occasions": [
+        "birthday",
+        "fathers-day",
+        "business",
+        "congratulations"
+      ],
+      "description": "A gold crown and baroque corners on rich navy. Regal and generous with space.",
+      "keywords": [
+        "crown",
+        "king",
+        "queen",
+        "navy",
+        "gold",
+        "royal"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/royal-navy-crown.jpg",
+            "zones": [
+              {
+                "x": 14,
+                "y": 30,
+                "w": 62,
+                "h": 94
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-gold-navy"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday, King"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Baba"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 320,
+          "required": true,
+          "default": "May this year crown you with joy, health and every good thing."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday, King",
+          "Happy Birthday, Queen",
+          "Congratulations",
+          "Happy Father's Day"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "mothers-day-watercolour",
+      "name": "Watercolour Mother's Day",
+      "occasions": [
+        "mothers-day"
+      ],
+      "description": "Pink and violet watercolour florals with butterflies, and “Happy Mother's Day” in flowing script.",
+      "keywords": [
+        "mother's day",
+        "mum",
+        "mama",
+        "watercolour",
+        "butterflies",
+        "pink"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/mothers-day-watercolour.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 24,
+                "w": 64,
+                "h": 72
+              }
+            ]
+          },
+          "palettes": [
+            "art-pink-white"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Mum",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Wanjiru"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "You are the heart of our family. We love you so much."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Love always,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Thank you for every sacrifice, every prayer and every hug, Mama.",
+          "You are the heart of our family. We love you so much.",
+          "Everything good in me, I learned from you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "violet-butterfly-wreath",
+      "name": "Violet Wreath",
+      "occasions": [
+        "get-well",
+        "just-because",
+        "sympathy",
+        "friendship"
+      ],
+      "description": "A twig wreath with violet blooms and a glowing butterfly, on soft lilac. Gentle and calming.",
+      "keywords": [
+        "get well",
+        "butterfly",
+        "violet",
+        "purple",
+        "calm",
+        "thinking of you"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/violet-butterfly-wreath.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 48,
+                "w": 52,
+                "h": 46
+              }
+            ]
+          },
+          "palettes": [
+            "art-lilac"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Get well soon"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Shosh"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Rest, heal and take it one day at a time. We're here for you."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Get well soon",
+          "Thinking of you",
+          "Pona haraka",
+          "Sending love"
+        ],
+        "message": [
+          "Pona haraka! We're all praying for a quick and full recovery.",
+          "Rest, heal and take it one day at a time. We're here for you.",
+          "Sending you strength, comfort and lots of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "rose-scroll",
+      "name": "Rose Scroll",
+      "occasions": [
+        "anniversary-wedding",
+        "romantic",
+        "mothers-day"
+      ],
+      "description": "An embossed pink scroll framed by roses, tulips and a calla lily. Soft and timeless.",
+      "keywords": [
+        "scroll",
+        "pink",
+        "roses",
+        "romantic",
+        "vintage"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/rose-scroll.jpg",
+            "zones": [
+              {
+                "x": 25,
+                "y": 30,
+                "w": 42,
+                "h": 70
+              }
+            ]
+          },
+          "palettes": [
+            "art-blush"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Anniversary"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Brian"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 240,
+          "required": true,
+          "default": "Still choosing you, every single day."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Forever yours,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Anniversary",
+          "I love you",
+          "Happy Mother's Day"
+        ],
+        "message": [
+          "Here's to the years behind us and the many more ahead.",
+          "Still choosing you, every single day.",
+          "Thank you for every laugh, every lesson and every year of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "lilac-letter",
+      "name": "Lilac Letter",
+      "occasions": [
+        "mothers-day",
+        "just-because",
+        "friendship",
+        "thank-you"
+      ],
+      "description": "Lined letter paper framed in lilac blossoms. Made for a long, heartfelt note.",
+      "keywords": [
+        "letter",
+        "lined",
+        "lilac",
+        "purple",
+        "long message",
+        "note"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/lilac-letter.jpg",
+            "zones": [
+              {
+                "x": 15,
+                "y": 19,
+                "w": 70,
+                "h": 96
+              }
+            ]
+          },
+          "palettes": [
+            "art-lilac"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "left"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mama"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 700,
+          "required": true,
+          "default": "I don't say it enough, so I wanted to write it down: thank you. For your patience, your prayers and your love. I carry them with me every day."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With all my love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Thank you for every sacrifice, every prayer and every hug, Mama.",
+          "You are the heart of our family. We love you so much.",
+          "Everything good in me, I learned from you.",
+          "Through every season, you've been right there. Love you, rafiki."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "lavender-tag",
+      "name": "Lavender Tag",
+      "occasions": [
+        "get-well",
+        "thank-you",
+        "just-because",
+        "birthday"
+      ],
+      "description": "A gift tag tied with a lavender ribbon, among daisies, lavender sprigs and a purple butterfly.",
+      "keywords": [
+        "lavender",
+        "tag",
+        "butterfly",
+        "daisies",
+        "purple",
+        "short note"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/lavender-tag.jpg",
+            "zones": [
+              {
+                "x": 44,
+                "y": 73,
+                "w": 40,
+                "h": 26
+              }
+            ]
+          },
+          "palettes": [
+            "art-lilac"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 24,
+          "required": true,
+          "default": "Thank you"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 90,
+          "required": true,
+          "default": "You made my day."
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Thank you",
+          "Get well soon",
+          "Happy Birthday",
+          "Just because"
+        ],
+        "message": [
+          "You made my day.",
+          "Pona haraka!",
+          "Thinking of you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "sunflower-ribbon",
+      "name": "Sunflower Ribbon",
+      "occasions": [
+        "get-well",
+        "thank-you",
+        "birthday",
+        "just-because"
+      ],
+      "description": "A big sunflower and gold satin ribbon above a cream card, on ivory silk. Pure sunshine.",
+      "keywords": [
+        "sunflower",
+        "yellow",
+        "ribbon",
+        "sunshine",
+        "cheerful"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/sunflower-ribbon.jpg",
+            "zones": [
+              {
+                "x": 21,
+                "y": 64,
+                "w": 60,
+                "h": 44
+              }
+            ]
+          },
+          "palettes": [
+            "art-honey"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Get well soon"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Auntie Rose"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "Sending you sunshine and strength for a quick recovery."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Get well soon",
+          "Thank you",
+          "Happy Birthday"
+        ],
+        "message": [
+          "Pona haraka! We're all praying for a quick and full recovery.",
+          "Rest, heal and take it one day at a time. We're here for you.",
+          "Sending you strength, comfort and lots of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "sunflower-lace",
+      "name": "Sunflower & Lace",
+      "occasions": [
+        "thank-you",
+        "birthday",
+        "mothers-day",
+        "get-well"
+      ],
+      "description": "Sunflowers, baby's breath and gold ribbon on vintage lace, beside a cream card with a gold border.",
+      "keywords": [
+        "sunflower",
+        "lace",
+        "yellow",
+        "rustic",
+        "warm"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/sunflower-lace.jpg",
+            "zones": [
+              {
+                "x": 40,
+                "y": 16,
+                "w": 46,
+                "h": 60
+              }
+            ]
+          },
+          "palettes": [
+            "art-honey"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Thank you"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Teacher Jane"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Your kindness brightened our year."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Gratefully,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Thank you",
+          "Happy Birthday",
+          "Get well soon"
+        ],
+        "message": [
+          "Asante sana for your kindness. It meant more than you know.",
+          "Thank you for always being there when it mattered.",
+          "Your generosity made a real difference. Thank you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "festive-parchment",
+      "name": "Festive Parchment",
+      "occasions": [
+        "christmas",
+        "new-year",
+        "business",
+        "thank-you"
+      ],
+      "description": "Aged parchment with a deep red satin bow and crimson blooms. Warm and traditional for the holidays.",
+      "keywords": [
+        "christmas",
+        "red bow",
+        "parchment",
+        "holiday",
+        "festive",
+        "vintage"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/festive-parchment.jpg",
+            "zones": [
+              {
+                "x": 28,
+                "y": 12,
+                "w": 58,
+                "h": 74
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Merry Christmas"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. the Wambui family"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 320,
+          "required": true,
+          "default": "Wishing you a joyful Christmas and a peaceful new year."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Warm wishes,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Merry Christmas",
+          "Season's Greetings",
+          "Krismasi Njema",
+          "Happy New Year"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "baroque-rose-bow",
+      "name": "Baroque Rose",
+      "occasions": [
+        "anniversary-wedding",
+        "valentines",
+        "romantic"
+      ],
+      "description": "A carved baroque frame with a burgundy satin bow and deep red roses around old parchment.",
+      "keywords": [
+        "baroque",
+        "burgundy",
+        "roses",
+        "bow",
+        "vintage",
+        "anniversary"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/baroque-rose-bow.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 43,
+                "w": 56,
+                "h": 44
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Anniversary"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Njeri"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 220,
+          "required": true,
+          "default": "Thank you for every year of love."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Yours always,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Anniversary",
+          "I love you",
+          "Happy Valentine's"
+        ],
+        "message": [
+          "Here's to the years behind us and the many more ahead.",
+          "Still choosing you, every single day.",
+          "Thank you for every laugh, every lesson and every year of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "violet-satin-roses",
+      "name": "Violet Satin",
+      "occasions": [
+        "mothers-day",
+        "birthday",
+        "anniversary-wedding"
+      ],
+      "description": "Violet and cream roses on a filigree frame over flowing purple satin.",
+      "keywords": [
+        "purple",
+        "violet",
+        "satin",
+        "roses",
+        "elegant"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/violet-satin-roses.jpg",
+            "zones": [
+              {
+                "x": 31,
+                "y": 38,
+                "w": 36,
+                "h": 68
+              }
+            ]
+          },
+          "palettes": [
+            "art-lilac"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mama"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "Wishing you a year as beautiful as you are."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday",
+          "Happy Mother's Day",
+          "Happy Anniversary"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "easter-lily-wreath",
+      "name": "Easter Lily Wreath",
+      "occasions": [
+        "easter",
+        "religious"
+      ],
+      "description": "A wreath of lilies and tulips over a nest of painted eggs, glowing with spring light.",
+      "keywords": [
+        "easter",
+        "pasaka",
+        "eggs",
+        "lilies",
+        "spring",
+        "resurrection"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/easter-lily-wreath.jpg",
+            "zones": [
+              {
+                "x": 29,
+                "y": 40,
+                "w": 42,
+                "h": 54
+              }
+            ]
+          },
+          "palettes": [
+            "art-honey"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Easter"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Grandma"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "May the joy of the risen Christ fill your home."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Blessings,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Easter",
+          "He is risen",
+          "Pasaka Njema"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "guitar-sunset-letter",
+      "name": "Sunset Guitar Letter",
+      "occasions": [
+        "fathers-day",
+        "birthday",
+        "just-because",
+        "friendship"
+      ],
+      "description": "A lakeside sunset painted into an acoustic guitar, beside lined letter paper. For the music lover.",
+      "keywords": [
+        "guitar",
+        "music",
+        "sunset",
+        "letter",
+        "lake",
+        "nature"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/guitar-sunset-letter.jpg",
+            "zones": [
+              {
+                "x": 26,
+                "y": 18,
+                "w": 58,
+                "h": 72
+              }
+            ]
+          },
+          "palettes": [
+            "art-honey"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "left"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Dad"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 600,
+          "required": true,
+          "default": "Some of my favourite memories have a soundtrack, and you're in every one of them. Thank you for the music and the moments."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Always,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Thank you for your strength, your wisdom and your bad jokes.",
+          "Asante Baba, for showing me what a good man looks like.",
+          "Everything I am, I owe to your example. Happy Father's Day.",
+          "Another year older, wiser and even more wonderful. Have the best day!"
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "guitar-melody",
+      "name": "Guitar Melody",
+      "occasions": [
+        "birthday",
+        "just-because",
+        "thank-you",
+        "friendship"
+      ],
+      "description": "A carved acoustic guitar with sheet music and wildflowers, on warm cream paper.",
+      "keywords": [
+        "guitar",
+        "music",
+        "melody",
+        "musician",
+        "vintage"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/guitar-melody.jpg",
+            "zones": [
+              {
+                "x": 45,
+                "y": 12,
+                "w": 42,
+                "h": 124
+              }
+            ]
+          },
+          "palettes": [
+            "art-honey"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "warm",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Tony"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 300,
+          "required": true,
+          "default": "Here's to another year of good music and great company."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Rock on,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday",
+          "Thank you",
+          "Just because"
+        ],
+        "message": [
+          "Another year older, wiser and even more wonderful. Have the best day!",
+          "Heri ya siku ya kuzaliwa! May this year bring you joy, health and every good thing.",
+          "Cheers to you and to all the adventures still ahead."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "vintage-hearts",
+      "name": "Vintage Hearts",
+      "occasions": [
+        "valentines",
+        "romantic",
+        "anniversary-wedding",
+        "apology"
+      ],
+      "description": "Aged parchment with a delicate border and glossy red hearts in the corners. Lots of room for a love letter.",
+      "keywords": [
+        "vintage",
+        "hearts",
+        "love letter",
+        "parchment",
+        "valentine"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/vintage-hearts.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 16,
+                "w": 68,
+                "h": 112
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "My love"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Amani"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 600,
+          "required": true,
+          "default": "I could fill a hundred pages and still not say it all. You are my favourite person, my safe place and my best friend."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Forever yours,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "My love",
+          "I'm sorry",
+          "Happy Valentine's"
+        ],
+        "message": [
+          "Nakupenda. Every day with you is my favourite day.",
+          "You are my calm, my joy and my home.",
+          "Thank you for loving me the way you do."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "paper-roses-noir",
+      "name": "Paper Roses",
+      "occasions": [
+        "mothers-day",
+        "thank-you",
+        "just-because",
+        "sympathy"
+      ],
+      "description": "Paper roses in cream and red trail around a white card on a black backdrop.",
+      "keywords": [
+        "paper roses",
+        "black",
+        "white",
+        "red",
+        "elegant"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/paper-roses-noir.jpg",
+            "zones": [
+              {
+                "x": 26,
+                "y": 22,
+                "w": 54,
+                "h": 90
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Thank you"
+        },
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mama"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 320,
+          "required": true,
+          "default": "Thank you for always being there when it mattered."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Thank you",
+          "Happy Mother's Day",
+          "Thinking of you"
+        ],
+        "message": [
+          "Asante sana for your kindness. It meant more than you know.",
+          "Thank you for always being there when it mattered.",
+          "Your generosity made a real difference. Thank you."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "anniversary-ruby-frame",
+      "name": "Ruby Anniversary",
+      "occasions": [
+        "anniversary-wedding"
+      ],
+      "description": "Red and cream roses on a gold filigree frame, with “Happy Anniversary” in deep red script.",
+      "keywords": [
+        "anniversary",
+        "red roses",
+        "gold",
+        "cream",
+        "couple"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-ruby-frame.jpg",
+            "zones": [
+              {
+                "x": 24,
+                "y": 62,
+                "w": 52,
+                "h": 46
+              }
+            ]
+          },
+          "palettes": [
+            "art-ivory-wine"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Mum and Dad"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Milestone",
+          "type": "text",
+          "maxLength": 70,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. 25 years · Silver"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 240,
+          "required": true,
+          "default": "Thank you for showing us what a lasting love looks like."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "With love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Here's to the years behind us and the many more ahead.",
+          "Still choosing you, every single day.",
+          "Thank you for every laugh, every lesson and every year of love."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "anniversary-sapphire-scroll",
+      "name": "Sapphire Scroll Anniversary",
+      "occasions": [
+        "anniversary-wedding"
+      ],
+      "description": "A silver-and-sapphire scroll with blue roses, pearls and a glowing crystal heart. “Happy Anniversary” is already lettered; add the couple's names.",
+      "keywords": [
+        "anniversary",
+        "sapphire",
+        "blue roses",
+        "silver",
+        "pearls",
+        "crystal heart"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-sapphire-scroll.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 131,
+                "w": 68,
+                "h": 13,
+                "panel": {
+                  "color": "#08102A",
+                  "alpha": 0.72
+                }
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "art-silver-sapphire"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "script",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Couple's names",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Brian & Wanjiru"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Years or date",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. 45 years · Sapphire"
+        }
+      ],
+      "suggestions": {},
+      "new": true
+    },
+    {
+      "id": "race-day",
+      "name": "Race Day",
+      "occasions": [
+        "birthday",
+        "congratulations",
+        "just-because"
+      ],
+      "description": "Lightning McQueen speeds off a chequered flag through red smoke. The birthday star's name goes on the red badge.",
+      "keywords": [
+        "cars",
+        "lightning mcqueen",
+        "race car",
+        "kids",
+        "boy",
+        "birthday party",
+        "red"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/race-day.jpg",
+            "zones": [
+              {
+                "x": 50,
+                "y": 18.5,
+                "w": 32,
+                "h": 7,
+                "roles": [
+                  "recipient"
+                ],
+                "ink": "#FFFFFF"
+              },
+              {
+                "x": 6,
+                "y": 34,
+                "w": 58,
+                "h": 64
+              }
+            ]
+          },
+          "palettes": [
+            "art-race-red"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "modern",
+        "align": "center"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Birthday star's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "{value}",
+          "placeholder": "e.g. Jayden"
+        },
+        {
+          "key": "title",
+          "role": "title",
+          "label": "Greeting or headline",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "Happy Birthday!"
+        },
+        {
+          "key": "details",
+          "role": "details",
+          "label": "Age or occasion",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. You're 5 today!"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": true,
+          "default": "Have a fast, fun and fantastic day, champ! Ka-chow!"
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Love,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Mum & Dad"
+        }
+      ],
+      "suggestions": {
+        "title": [
+          "Happy Birthday!",
+          "Ka-chow!",
+          "You're a winner!"
+        ],
+        "message": [
+          "Have a fast, fun and fantastic day, champ! Ka-chow!",
+          "Speed into your new year with a big smile!",
+          "Keep racing towards your dreams, little champ."
+        ]
+      },
+      "new": true
+    },
+    {
+      "id": "porsche-drive-letter",
+      "name": "Driven by Passion",
+      "occasions": [
+        "fathers-day",
+        "birthday",
+        "new-job",
+        "just-because"
+      ],
+      "description": "A Porsche 911 on a mountain road above lined letter paper, with “Good roads, better days”. Made for the car lover.",
+      "keywords": [
+        "porsche",
+        "car",
+        "911",
+        "sports car",
+        "letter",
+        "him",
+        "dad",
+        "car lover"
+      ],
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "kind": "single",
+      "format": "portrait-2x3",
+      "status": "published",
+      "featured": false,
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/porsche-drive-letter.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 37,
+                "w": 62,
+                "h": 60
+              }
+            ]
+          },
+          "palettes": [
+            "art-white-charcoal"
+          ]
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "left"
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Recipient's name",
+          "type": "text",
+          "maxLength": 40,
+          "required": true,
+          "default": "",
+          "display": "Dear {value},",
+          "placeholder": "e.g. Dad"
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Your message",
+          "type": "textarea",
+          "maxLength": 600,
+          "required": true,
+          "default": "Here's to good roads, better days and many more miles together. Thank you for always steering us right."
+        },
+        {
+          "key": "closing",
+          "role": "closing",
+          "label": "Sign-off",
+          "type": "text",
+          "maxLength": 30,
+          "required": false,
+          "default": "Drive safe,"
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "Your name",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": "",
+          "placeholder": "e.g. Brian"
+        }
+      ],
+      "suggestions": {
+        "message": [
+          "Happy birthday! May the year ahead be all open roads and good company.",
+          "Thank you for always steering us right. Happy Father's Day!",
+          "Congratulations on the new role. Full speed ahead!"
+        ]
+      },
+      "new": true
+    },
+    {
       "id": "good-morning-good-night",
       "name": "Good Morning & Good Night",
       "occasions": [
@@ -280,7 +5985,7 @@
       "kind": "bundle",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "morning",
@@ -413,7 +6118,7 @@
       "kind": "single",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "main",
@@ -512,7 +6217,7 @@
       "kind": "single",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "main",
@@ -713,7 +6418,7 @@
       "kind": "single",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "main",
@@ -928,7 +6633,7 @@
       "kind": "single",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "main",
@@ -1365,7 +7070,7 @@
       "kind": "single",
       "format": "portrait-2x3",
       "status": "published",
-      "featured": true,
+      "featured": false,
       "faces": [
         {
           "id": "main",
