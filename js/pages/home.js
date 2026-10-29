@@ -4,7 +4,8 @@ import { money } from "../data.js";
 const data = await initPage("home");
 const { catalog, groups, occasions, business } = data;
 
-const lowest = Math.min(...catalog.templates.map(t => t.price.amount));
+// Lowest single-card price; two-in-one sets are a separate offer.
+const lowest = Math.min(...catalog.templates.filter(t => t.kind !== "bundle").map(t => t.price.amount));
 const heroPrice = $("[data-hero-price]");
 if (heroPrice) heroPrice.textContent = money(lowest, business);
 
