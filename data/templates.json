@@ -8985,6 +8985,3376 @@
           "Whatever you're going through, you're not alone."
         ]
       }
+    },
+    {
+      "id": "morning-lakeside",
+      "name": "Good Morning by the Lake",
+      "description": "A peaceful sunrise over still water and smooth stones.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "gm-gn"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/morning-lakeside.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 106,
+                "w": 68,
+                "h": 34,
+                "ink": "#FFFFFF"
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "midnight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodnight-cabin",
+      "name": "Good Night by the Lake",
+      "description": "A warm cabin and moonlit lake for a gentle good-night message.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "gm-gn",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/goodnight-cabin.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 106,
+                "w": 68,
+                "h": 34,
+                "ink": "#FFFFFF"
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "midnight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodnight-orchid",
+      "name": "Good Night Orchid",
+      "description": "A bright, minimal floral design for a good-night wish.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "gm-gn",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/goodnight-orchid.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 102,
+                "w": 64,
+                "h": 34,
+                "ink": "#6B4A28"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodnight-neon-flower",
+      "name": "Neon Good Night",
+      "description": "A dramatic black-and-lime floral good-night design.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "gm-gn",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/goodnight-neon-flower.jpg",
+            "zones": [
+              {
+                "x": 16,
+                "y": 104,
+                "w": 68,
+                "h": 34,
+                "ink": "#FFFFFF"
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "night-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invitation-olive-wreath",
+      "name": "Olive Wreath Invitation",
+      "description": "An elegant invitation framed by soft green leaves.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "invitations",
+        "anniversary-wedding"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/invitation-olive-wreath.jpg",
+            "zones": [
+              {
+                "x": 17,
+                "y": 107,
+                "w": 66,
+                "h": 31,
+                "ink": "#52634A"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invitation-pink-roses",
+      "name": "Pink Rose Invitation",
+      "description": "A romantic invitation design with delicate blush roses.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "invitations",
+        "anniversary-wedding"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/invitation-pink-roses.jpg",
+            "zones": [
+              {
+                "x": 17,
+                "y": 108,
+                "w": 66,
+                "h": 30,
+                "ink": "#79515A"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handdrawn-love",
+      "name": "Hand-drawn Hearts",
+      "description": "A simple hand-drawn couple and heart illustration on a clean white background.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "romantic",
+        "anniversary-wedding"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/handdrawn-love.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 34,
+                "w": 64,
+                "h": 78,
+                "ink": "#6C2731"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-golden-blooms",
+      "name": "Golden Anniversary Blooms",
+      "description": "A refined anniversary design with gold details and floral corners.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "anniversary-wedding"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-golden-blooms.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 43,
+                "w": 64,
+                "h": 64,
+                "ink": "#7A5D34"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-watercolor-hearts",
+      "name": "Watercolour Hearts Anniversary",
+      "description": "Soft watercolour hearts for a warm anniversary greeting.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "anniversary-wedding",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-watercolor-hearts.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 46,
+                "w": 64,
+                "h": 62,
+                "ink": "#8A4651"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-heart-couple",
+      "name": "A Heartfelt Anniversary",
+      "description": "A sweet illustration of a couple surrounded by hearts.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "anniversary-wedding",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-heart-couple.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 102,
+                "w": 64,
+                "h": 34,
+                "ink": "#8A4651"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hands-and-hearts",
+      "name": "Hands and Hearts",
+      "description": "A gentle line-art design with hands and floating hearts.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "romantic",
+        "friendship"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/hands-and-hearts.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 37,
+                "w": 64,
+                "h": 76,
+                "ink": "#8C5B56"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birthday-purple-wreath",
+      "name": "Purple Butterfly Birthday",
+      "description": "A lilac birthday frame with butterflies and a generous message space.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "birthday"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/birthday-purple-wreath.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 39,
+                "w": 64,
+                "h": 70,
+                "ink": "#6A4D78"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "heather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birthday-violet-butterfly",
+      "name": "Violet Butterfly Birthday",
+      "description": "A light, low-resolution birthday design with a violet butterfly frame.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "birthday"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/birthday-violet-butterfly.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 43,
+                "w": 64,
+                "h": 64,
+                "ink": "#6A4D78"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "heather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valentine-heart-corners",
+      "name": "Heart Corner Valentine",
+      "description": "A clean white love-note design with red heart accents.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "valentines",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/valentine-heart-corners.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 37,
+                "w": 64,
+                "h": 75,
+                "ink": "#7A2934"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-rose-note",
+      "name": "Rose Thank-you Note",
+      "description": "A pink rose thank-you card with space for a personal note.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-rose-note.jpg",
+            "zones": [
+              {
+                "x": 24,
+                "y": 50,
+                "w": 52,
+                "h": 62,
+                "ink": "#8A4651"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-pink-frame",
+      "name": "Pink Thank-you Frame",
+      "description": "A soft pink floral thank-you frame with a clean writing area.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-pink-frame.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 42,
+                "w": 60,
+                "h": 68,
+                "ink": "#805866"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduation-blue-frame",
+      "name": "Blue Graduation Blooms",
+      "description": "A blue floral graduation design with a framed message space.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "graduation",
+        "exam-success"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/graduation-blue-frame.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 102,
+                "w": 64,
+                "h": 34,
+                "ink": "#425A7A"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "powder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduation-lavender-frame",
+      "name": "Lavender Graduation Frame",
+      "description": "A lavender floral frame for congratulating a graduate.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "graduation",
+        "exam-success"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/graduation-lavender-frame.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 41,
+                "w": 60,
+                "h": 70,
+                "ink": "#674E73"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "heather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduation-cap-congratulations",
+      "name": "Graduation Cap Congratulations",
+      "description": "A graduate-themed congratulations card in blue and white.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "graduation",
+        "exam-success",
+        "congratulations"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/graduation-cap-congratulations.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 105,
+                "w": 64,
+                "h": 31,
+                "ink": "#34465E"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "powder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "easter-olive-wreath",
+      "name": "Olive Easter Wreath",
+      "description": "A fresh Easter greeting framed by olive leaves and spring flowers.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "easter",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/easter-olive-wreath.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 39,
+                "w": 64,
+                "h": 72,
+                "ink": "#657049"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "easter-green-meadow",
+      "name": "Easter Meadow",
+      "description": "A bright spring-green Easter frame with flowers along the bottom.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "easter",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/easter-green-meadow.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 39,
+                "w": 64,
+                "h": 70,
+                "ink": "#5A714A"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "easter-gold-greeting",
+      "name": "Golden Easter Blessings",
+      "description": "A classic Easter design with soft florals and golden detail.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "easter",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/easter-gold-greeting.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#795F3C"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "congratulations-golden-rose",
+      "name": "Golden Rose Congratulations",
+      "description": "A celebratory gold design with a rose and delicate sparkle.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "congratulations",
+        "graduation",
+        "new-job"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/congratulations-golden-rose.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 110,
+                "w": 64,
+                "h": 28,
+                "ink": "#73552F"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "congratulations-blue-gold",
+      "name": "Blue and Gold Congratulations",
+      "description": "An elegant blue-and-gold congratulations design.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "congratulations",
+        "graduation",
+        "new-job"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/congratulations-blue-gold.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#42536B"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "powder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-olive-botanicals",
+      "name": "Olive Botanical Thank-you",
+      "description": "A calm botanical thank-you design in soft green and cream.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you",
+        "business"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-olive-botanicals.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#566149"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer-appreciation-gold",
+      "name": "Golden Customer Appreciation",
+      "description": "A polished gold design for thanking customers and clients.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "business",
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/customer-appreciation-gold.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 109,
+                "w": 64,
+                "h": 29,
+                "ink": "#775E36"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "promotion-black-gold",
+      "name": "Black and Gold Promotion",
+      "description": "A striking black-and-gold card celebrating a promotion.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "new-job",
+        "congratulations"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/promotion-black-gold.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#725628"
+              }
+            ],
+            "shadow": true
+          },
+          "palettes": [
+            "night-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "promotion-laurel",
+      "name": "Laurel Promotion",
+      "description": "A refined cream-and-gold promotion card framed by laurel leaves.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "new-job",
+        "congratulations"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/promotion-laurel.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 109,
+                "w": 64,
+                "h": 29,
+                "ink": "#755C34"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-year-gold-ornaments",
+      "name": "Golden New Year Ornaments",
+      "description": "A festive New Year design with delicate hanging ornaments.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "new-year"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/new-year-gold-ornaments.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 36,
+                "w": 64,
+                "h": 60,
+                "ink": "#7D6232"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-year-black-frame",
+      "name": "Midnight New Year",
+      "description": "A dramatic black-and-gold New Year card with a bright central panel.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "new-year"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/new-year-black-frame.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 44,
+                "w": 60,
+                "h": 65,
+                "ink": "#77552B"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "night-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "christmas-holly-frame",
+      "name": "Christmas Holly Frame",
+      "description": "A simple Christmas greeting framed with holly and red berries.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "christmas"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/christmas-holly-frame.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 37,
+                "w": 64,
+                "h": 76,
+                "ink": "#75433C"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "crimson-pine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "christmas-snowy-trees",
+      "name": "Snowy Christmas Trees",
+      "description": "A light winter design with snowflakes and evergreen trees.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "christmas"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/christmas-snowy-trees.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 38,
+                "w": 64,
+                "h": 72,
+                "ink": "#53644E"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "crimson-pine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memorial-cross-ribbon",
+      "name": "Memorial Cross and Ribbon",
+      "description": "A quiet remembrance design with a cross and black ribbon.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "sympathy",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/memorial-cross-ribbon.jpg",
+            "zones": [
+              {
+                "x": 22,
+                "y": 38,
+                "w": 56,
+                "h": 70,
+                "ink": "#5B5B55"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "stone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-blush-frames",
+      "name": "Blush Anniversary Frames",
+      "description": "A blush-pink anniversary design with romantic floral details.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "anniversary-wedding",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/anniversary-blush-frames.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 104,
+                "w": 60,
+                "h": 34,
+                "ink": "#8C5964"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friendship-day-scrapbook",
+      "name": "Friendship Day Scrapbook",
+      "description": "A playful friendship design with scrapbook-style photo frames.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "friendship"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/friendship-day-scrapbook.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 86,
+                "w": 64,
+                "h": 47,
+                "ink": "#7C5968"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eid-golden-crescent",
+      "name": "Golden Crescent Eid",
+      "description": "A golden crescent and mosque design for Eid celebrations.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "eid",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/eid-golden-crescent.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#70552D"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eid-floral-mosque",
+      "name": "Floral Mosque Eid",
+      "description": "A warm Eid greeting with a mosque silhouette and soft florals.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "eid",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/eid-floral-mosque.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#77563D"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "ivory-wine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "christian-dove-florals",
+      "name": "Dove and Florals",
+      "description": "A peaceful dove and floral frame for a faith-filled message.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/christian-dove-florals.jpg",
+            "zones": [
+              {
+                "x": 19,
+                "y": 38,
+                "w": 62,
+                "h": 74,
+                "ink": "#6E694D"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memorial-bible-cross",
+      "name": "Bible and Cross Memorial",
+      "description": "A simple cream memorial frame with a Bible and cross.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "sympathy",
+        "religious"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/memorial-bible-cross.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 38,
+                "w": 60,
+                "h": 72,
+                "ink": "#605B51"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "stone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valentine-red-rose-frame",
+      "name": "Red Rose Valentine",
+      "description": "A romantic white frame decorated with red roses and hearts.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "valentines",
+        "romantic"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/valentine-red-rose-frame.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 37,
+                "w": 64,
+                "h": 76,
+                "ink": "#7A2934"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-rose-corner",
+      "name": "Rose Corner Thank-you",
+      "description": "A clean thank-you frame with a heart and rose accent.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-rose-corner.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 42,
+                "w": 64,
+                "h": 70,
+                "ink": "#7D4D4D"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-blue-envelope",
+      "name": "Blue Envelope Thank-you",
+      "description": "A cheerful blue envelope design with a blank note area.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 200
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-blue-envelope.jpg",
+            "zones": [
+              {
+                "x": 22,
+                "y": 34,
+                "w": 56,
+                "h": 72,
+                "ink": "#456A78"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "powder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-blue-florals",
+      "name": "Blue Floral Thank-you",
+      "description": "A fresh blue floral thank-you frame with room for a note.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-blue-florals.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 42,
+                "w": 64,
+                "h": 70,
+                "ink": "#4F7189"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "powder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-pink-bows",
+      "name": "Pink Bow Thank-you",
+      "description": "A sweet pink frame accented with bows and small hearts.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-pink-bows.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 39,
+                "w": 64,
+                "h": 72,
+                "ink": "#80546B"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thank-you-heart-envelope",
+      "name": "Heart Envelope Thank-you",
+      "description": "A playful pink envelope design with a heart-shaped seal.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "thank-you"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/thank-you-heart-envelope.jpg",
+            "zones": [
+              {
+                "x": 20,
+                "y": 43,
+                "w": 60,
+                "h": 66,
+                "ink": "#80546B"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "blush-gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "butterfly-wreath",
+      "name": "Butterfly Wreath",
+      "description": "A delicate purple butterfly wreath for a thoughtful personal note.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "friendship",
+        "just-because"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/butterfly-wreath.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 36,
+                "w": 64,
+                "h": 76,
+                "ink": "#69517A"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "heather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "just-because-bouquet",
+      "name": "Just Because Bouquet",
+      "description": "A cheerful flower bouquet for a just-because message.",
+      "kind": "single",
+      "price": {
+        "type": "fixed",
+        "amount": 300
+      },
+      "status": "published",
+      "featured": false,
+      "new": true,
+      "occasions": [
+        "just-because",
+        "friendship"
+      ],
+      "fields": [
+        {
+          "key": "recipient",
+          "role": "recipient",
+          "label": "Name or recipient",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "message",
+          "role": "message",
+          "label": "Personal message",
+          "type": "textarea",
+          "maxLength": 200,
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "sender",
+          "role": "sender",
+          "label": "From",
+          "type": "text",
+          "maxLength": 40,
+          "required": false,
+          "default": ""
+        }
+      ],
+      "defaults": {
+        "font": "classic",
+        "align": "center"
+      },
+      "faces": [
+        {
+          "id": "main",
+          "label": "Card",
+          "art": {
+            "src": "assets/templates/just-because-bouquet.jpg",
+            "zones": [
+              {
+                "x": 18,
+                "y": 108,
+                "w": 64,
+                "h": 30,
+                "ink": "#53634E"
+              }
+            ],
+            "shadow": false
+          },
+          "palettes": [
+            "sage"
+          ]
+        }
+      ]
     }
   ]
 }

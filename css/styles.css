@@ -278,6 +278,9 @@ main { display: block; }
 .product-price { font-weight: 700; color: var(--charcoal); }
 .product-tag { font-size: 0.78rem; color: var(--muted); }
 .product-tag::before { content: "✎ "; color: var(--rose); }
+.product-actions { display: flex; justify-content: flex-start; margin-top: 10px; }
+.product-inquire { display: inline-flex; align-items: center; gap: 8px; }
+.product-inquire .icon { width: 18px; height: 18px; }
 
 /* Featured: editorial lead tile */
 .featured-grid .product--lead { grid-column: 1 / -1; }

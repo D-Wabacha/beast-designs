@@ -1,6 +1,6 @@
 // Shared page chrome (header, footer, floating WhatsApp button) and small UI utilities.
 import { loadData, money, priceLabel, primaryOccasion } from "./data.js";
-import { waLink, enquiryMessage } from "./whatsapp.js";
+import { waLink, enquiryMessage, designEnquiryMessage } from "./whatsapp.js";
 import { renderFace, loadCardFonts } from "./card/render.js";
 
 export function esc(value) {
@@ -243,6 +243,9 @@ export function cardFontsReady(catalog) {
 export function productCardHtml(data, t, { variant = "" } = {}) {
   const occ = primaryOccasion(data, t);
   const bundle = t.kind === "bundle";
+  const cardUrl = new URL("customize.html", document.baseURI);
+  cardUrl.searchParams.set("t", t.id);
+  const inquiryHref = waLink(data.business.whatsapp.number, designEnquiryMessage(data.business, t.name, occ ? occ.name : "", cardUrl.href));
   return `
   <article class="product ${variant}">
     <a class="product-link" href="customize.html?t=${encodeURIComponent(t.id)}" aria-label="${esc(t.name)}, ${esc(priceLabel(t, data.business))}. Customise this design.">
@@ -256,6 +259,9 @@ export function productCardHtml(data, t, { variant = "" } = {}) {
         <p class="product-meta"><span class="product-price">${esc(priceLabel(t, data.business))}</span><span class="product-tag">Personalise</span></p>
       </div>
     </a>
+    <div class="product-actions">
+      <a class="btn btn-wa btn-sm product-inquire" href="${inquiryHref}" target="_blank" rel="noopener">${ICONS.whatsapp}<span>Inquire</span></a>
+    </div>
   </article>`;
 }
 

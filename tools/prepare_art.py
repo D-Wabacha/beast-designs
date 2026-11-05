@@ -4,7 +4,7 @@ Each source image is cropped, padded to 2:3 with a soft blurred extension where 
 would cut off part of the design, cleaned of any sample text baked into the artwork, and saved
 as assets/templates/<id>.jpg at 1000 × 1500 px.
 
-    python3 tools/prepare_art.py "/path/to/unzipped/images"
+    python3 tools/prepare_art.py "/path/to/unzipped/images" [art-id ...]
 
 Needs Pillow (pip install pillow). Only used when adding or changing artwork, never by the site.
 """
@@ -74,6 +74,53 @@ ART = {
     "race-day": ("WhatsApp Image 2026-10-27 at 22.53.12mml.jpeg", (0, 0.03, 1, 0.97), []),
     "porsche-drive-letter": ("WhatsApp Image 2026-10-27 at 22.55.24mkm.jpeg", (0, 0, 1, 1), []),
     "anniversary-sapphire-scroll": ("WhatsApp Image 2026-10cr-27 at 22.50.16.jpeg", (0, 0.04, 1, 0.96), []),
+    "morning-lakeside": ("WhatsApp Image 2026-10-29 at 16.12.55.jpeg", (0, 0, 1, 1), []),
+    "goodnight-cabin": ("WhatsApp Image 2026-10-29 at 16.12.55f.jpeg", (0, 0, 1, 1), []),
+    "goodnight-orchid": ("WhatsApp Image 2026-10-29 at 16.12.56.jpeg", (0, 0, 1, 1), []),
+    "goodnight-neon-flower": ("WhatsApp Image 2026-10-29 at 16.12.57.jpeg", (0, 0, 1, 1), []),
+    "invitation-olive-wreath": ("WhatsApp Image 2026-10-29 at 16.42.02.jpeg", (0, 0, 1, 1), []),
+    "invitation-pink-roses": ("WhatsApp Image 2026-10-29 at 16.42.03.jpeg", (0, 0, 1, 1), []),
+    "handdrawn-love": ("WhatsApp Image 2026-10-29 at 16.42.04.jpeg", (0, 0, 1, 1), []),
+    "anniversary-golden-blooms": ("WhatsApp Image 2026-10-29 at 16.42.05.jpeg", (0, 0, 1, 1), []),
+    "anniversary-watercolor-hearts": ("WhatsApp Image 2026-10-29 at 16.42.06.jpeg", (0, 0, 1, 1), []),
+    "anniversary-heart-couple": ("WhatsApp Image 2026-10-29 at 16.42.06f.jpeg", (0, 0, 1, 1), []),
+    "hands-and-hearts": ("WhatsApp Image 2026-10-29 at 16.42.07.jpeg", (0, 0, 1, 1), []),
+    "birthday-purple-wreath": ("WhatsApp Image 2026-10-29 at 16.43.43.jpeg", (0, 0, 1, 1), []),
+    "birthday-violet-butterfly": ("WhatsApp Image 2026-10-29 at 16.43.44.jpeg", (0, 0, 1, 1), []),
+    "valentine-heart-corners": ("WhatsApp Image 2026-10-29 at 16.44.52.jpeg", (0, 0, 1, 1), []),
+    "thank-you-rose-note": ("WhatsApp Image 2026-10-29 at 16.44.53.jpeg", (0, 0, 1, 1), []),
+    "thank-you-pink-frame": ("WhatsApp Image 2026-10-29 at 16.44.53f.jpeg", (0, 0, 1, 1), []),
+    "graduation-blue-frame": ("WhatsApp Image 2026-10-29 at 16.45.32.jpeg", (0, 0, 1, 1), []),
+    "graduation-lavender-frame": ("WhatsApp Image 2026-10-29 at 16.45.32f.jpeg", (0, 0, 1, 1), []),
+    "graduation-cap-congratulations": ("WhatsApp Image 2026-10-29 at 16.45.33.jpeg", (0, 0, 1, 1), []),
+    "easter-olive-wreath": ("WhatsApp Image 2026-10-29 at 16.46.54.jpeg", (0, 0, 1, 1), []),
+    "easter-green-meadow": ("WhatsApp Image 2026-10-29 at 16.46.55.jpeg", (0, 0, 1, 1), []),
+    "easter-gold-greeting": ("WhatsApp Image 2026-10-29 at 16.46.56.jpeg", (0, 0, 1, 1), []),
+    "congratulations-golden-rose": ("WhatsApp Image 2026-10-29 at 16.48.58.jpeg", (0, 0, 1, 1), []),
+    "congratulations-blue-gold": ("WhatsApp Image 2026-10-29 at 16.48.59.jpeg", (0, 0, 1, 1), []),
+    "thank-you-olive-botanicals": ("WhatsApp Image 2026-10-29 at 16.49.00.jpeg", (0, 0, 1, 1), []),
+    "customer-appreciation-gold": ("WhatsApp Image 2026-10-29 at 16.49.01.jpeg", (0, 0, 1, 1), []),
+    "promotion-black-gold": ("WhatsApp Image 2026-10-29 at 16.49.01f.jpeg", (0, 0, 1, 1), []),
+    "promotion-laurel": ("WhatsApp Image 2026-10-29 at 16.49.02.jpeg", (0, 0, 1, 1), []),
+    "new-year-gold-ornaments": ("WhatsApp Image 2026-10-29 at 16.50.33.jpeg", (0, 0, 1, 1), []),
+    "new-year-black-frame": ("WhatsApp Image 2026-10-29 at 16.50.34.jpeg", (0, 0, 1, 1), []),
+    "christmas-holly-frame": ("WhatsApp Image 2026-10-29 at 16.50.34f.jpeg", (0, 0, 1, 1), []),
+    "christmas-snowy-trees": ("WhatsApp Image 2026-10-29 at 16.50.35.jpeg", (0, 0, 1, 1), []),
+    "memorial-cross-ribbon": ("WhatsApp Image 2026-10-29 at 16.50.36.jpeg", (0, 0, 1, 1), []),
+    "anniversary-blush-frames": ("WhatsApp Image 2026-10-29 at 16.52.11.jpeg", (0, 0, 1, 1), []),
+    "friendship-day-scrapbook": ("WhatsApp Image 2026-10-29 at 16.52.12.jpeg", (0, 0, 1, 1), []),
+    "eid-golden-crescent": ("WhatsApp Image 2026-10-29 at 16.52.57.jpeg", (0, 0, 1, 1), []),
+    "eid-floral-mosque": ("WhatsApp Image 2026-10-29 at 16.52.58.jpeg", (0, 0, 1, 1), []),
+    "christian-dove-florals": ("WhatsApp Image 2026-10-29 at 16.52.59.jpeg", (0, 0, 1, 1), []),
+    "memorial-bible-cross": ("WhatsApp Image 2026-10-29 at 16.52.59f.jpeg", (0, 0, 1, 1), []),
+    "valentine-red-rose-frame": ("WhatsApp Image 2026-10-29 at 16.53.51.jpeg", (0, 0, 1, 1), []),
+    "thank-you-rose-corner": ("WhatsApp Image 2026-10-29 at 16.53.52.jpeg", (0, 0, 1, 1), []),
+    "thank-you-blue-envelope": ("WhatsApp Image 2026-10-29 at 16.54.15.jpeg", (0, 0, 1, 1), []),
+    "thank-you-blue-florals": ("WhatsApp Image 2026-10-29 at 16.54.16.jpeg", (0, 0, 1, 1), []),
+    "thank-you-pink-bows": ("WhatsApp Image 2026-10-29 at 16.54.17.jpeg", (0, 0, 1, 1), []),
+    "thank-you-heart-envelope": ("WhatsApp Image 2026-10-29 at 16.54.18.jpeg", (0, 0, 1, 1), []),
+    "butterfly-wreath": ("WhatsApp Image 2026-10-29 at 16.54.18f.jpeg", (0, 0, 1, 1), []),
+    "just-because-bouquet": ("WhatsApp Image 2026-10-29 at 16.54.19.jpeg", (0, 0, 1, 1), []),
 }
 
 
@@ -149,9 +196,14 @@ def fit_two_by_three(im):
     return bg.resize((OUT_W, OUT_H), Image.LANCZOS)
 
 
-def main(src_dir):
+def main(src_dir, art_ids=None):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for art_id, (name, crop, fixes) in ART.items():
+    selected = list(ART) if art_ids is None else art_ids
+    unknown = set(selected) - ART.keys()
+    if unknown:
+        raise ValueError(f"Unknown artwork id(s): {', '.join(sorted(unknown))}")
+    for art_id in selected:
+        name, crop, fixes = ART[art_id]
         im = Image.open(Path(src_dir) / name).convert("RGB")
         for fix in fixes:
             if fix[0] == "rect":
@@ -165,4 +217,4 @@ def main(src_dir):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else ".")
+    main(sys.argv[1] if len(sys.argv) > 1 else ".", sys.argv[2:] or None)

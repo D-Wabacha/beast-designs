@@ -12,12 +12,13 @@ export function enquiryMessage(business, context) {
   return lines.join("\n");
 }
 
-export function designEnquiryMessage(business, templateName, occasionName) {
-  return [
+export function designEnquiryMessage(business, templateName, occasionName, cardUrl) {
+  const lines = [
     `Hello ${business.businessName}! I'm interested in the "${templateName}" card${occasionName ? ` (${occasionName})` : ""}.`,
-    "",
-    "Could you help me with it?",
-  ].join("\n");
+  ];
+  if (cardUrl) lines.push(`Card link: ${cardUrl}`);
+  lines.push("", "Could you help me with it?");
+  return lines.join("\n");
 }
 
 export function personalisationLines(template, values) {
